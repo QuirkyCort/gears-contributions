@@ -1,0 +1,830 @@
+{
+  "worldName": "image",
+  "options": {
+    "image": "https://quirkycort.github.io/gears-contributions/worlds/custom-world/Henry Romkes - Vacuum Room/house.png",
+    "imageURL": "",
+    "length": 0,
+    "width": 0,
+    "imageScale": "8",
+    "wall": false,
+    "missions": false,
+    "wallHeight": 7,
+    "wallThickness": 2,
+    "groundFriction": 1,
+    "wallFriction": 0.1,
+    "groundRestitution": 0,
+    "wallRestitution": 0.1,
+    "arenaStartRot": [1.57,0,0,0],		
+    "arenaStartPosXY": [[198,-387,5],[-360,-360,5],[230,155,5],[360,-160,5]],
+    "obstacles": [
+	
+	[[400,0,0], [8, 808, 40],[0, 0, 0], "#dddddddd"],
+	[[-400,0,0], [8, 808, 40],[0, 0, 0], "#dddddddd"],	
+	[[390,400,0], [28, 8, 40],[0, 0, 0], "#dddddddd"],	
+	[[331,400,0], [90, 10, 2],[0, 0, 0], "#ae8357"],	
+	
+	[[0,-400,0], [808, 8, 40],[0, 0, 0], "#dddddddd"],
+	[[-59,400,0], [690, 8, 40],[0, 0, 0], "#dddddddd"],		
+	
+	[[255,-214,0], [8, 380, 40],[0, 0, 0], "#dddddddd"],
+	[[255,240,0], [8, 328, 40],[0, 0, 0], "#dddddddd"],
+
+	
+	[[133,125,0], [236, 8, 40],[0, 0, 0], "#9dccdedd"],	
+	[[19,170,0], [8, 98, 40],[0, 0, 0], "#9dccdedd"],	
+	[[19,352,0], [8, 88, 40],[0, 0, 0], "#9dccdedd"],	
+	
+	[[230,20,0], [4, 100, 40],[0, -10, 0], "#804100dd"]	
+	
+		
+		
+	],
+    "magnetics": [
+	[[50,5,0], [1, 1, 0.5],[0, 0, 0], "#ff0000"],	
+    [[30, -119, 0], [1, 1, 0.5],[0, 0, 0], "#ff0000"],	
+    [[-39, 85, 0], [1, 1, 0.5],[0, 45, 0], "#ff0000"],
+    [[-39, 5, 0], [1, 1, 0.5],[0, 45, 0], "#ff0000"],	
+    [[-275, -345, 0], [1, 1, 0.5],[0, 0, 0], "#ff0000"],	
+    [[390, 315, 0], [1, 1, 0.5],[0, 0, 0], "#ff0000"],
+    [[177, 320, 0], [1, 1, 0.5],[0, 60, 0], "#ff0000"],	
+    [[-180, 5, 0], [1, 1, 0.5],[0, 0, 0], "#ff0000"],	
+    [[180, -5, 0], [1, 1, 0.5],[0, 40, 0], "#ff0000"],	
+	
+    [[137, -18, 0], [1, 1, 0.5],[0, 0, 0], "#ff00ff"],	
+    [[149, 5, 0], [1, 1, 0.5],[0, 45, 0], "#ff00ff"],	
+    [[-32, -105, 0], [1, 1, 0.5],[0, 0, 0], "#ff00ff"],	
+    [[0, -275, 0], [1, 1, 0.5],[0, 80, 0], "#ff00ff"],
+    [[190, -170, 0], [1, 1, 0.5],[0, 0, 0], "#ff00ff"],		
+    [[-340, -206, 0], [1, 1, 0.5],[0, 40, 0], "#ff00ff"],	
+    [[53, 305, 0], [1, 1, 0.5],[0, 0, 0], "#ff00ff"],
+    [[-53, -305, 0], [1, 1, 0.5],[0, 40, 0], "#ff00ff"],
+    [[-113, -65, 0], [1, 1, 0.5],[0, 0, 0], "#ff00ff"],
+	
+    [[290, -160, 0], [1, 1, 0.5],[0, 0, 0], "#ffffff"],		
+    [[75, -350, 0], [1, 1, 0.5],[0, 0, 0], "#ffffff"],	
+    [[-100, -360, 0], [1, 1, 0.5],[0, 45, 0], "#ffffff"],			
+    [[-33, 95, 0], [1, 1, 0.5],[0, 0, 0], "#ffffff"],	
+    [[133, 105, 0], [1, 1, 0.5],[0, 40, 0], "#ffffff"],	
+    [[-133, -105, 0], [1, 1, 0.5],[0, 0, 0], "#ffffff"],	
+    [[66, 50, 0], [1, 1, 0.5],[0, 0, 0], "#ffffff"],		
+    [[126, 250, 0], [1, 1, 0.5],[0, 30, 0], "#ffffff"],		
+    [[-66, 50, 0], [1, 1, 0.5],[0, 0, 0], "#ffffff"],			
+	[[-200, 330, 0], [1, 1, 0.5],[0, 20, 0], "#ffffff"],	
+    [[-148, -300, 0], [1, 1, 0.5],[0, 0, 0], "#ffffff"],
+	
+	[[0, -80, 0], [1, 1, 0.5],[0, 0, 0], "#00ff00"], 
+    [[-51, -55, 0], [1, 1, 0.5],[0, 0, 0], "#00ff00"],		
+    [[-170, 5, 0], [1, 1, 0.5],[0, 0, 0], "#00ff00"],	
+    [[-215, 150, 0], [1, 1, 0.5],[0, 50, 0], "#00ff00"],	
+    [[210, 80, 0], [1, 1, 0.5],[0, 0, 0], "#00ff00"],	
+    [[51, 55, 0], [1, 1, 0.5],[0, 0, 0], "#00ff00"],		
+    [[-170, 105, 0], [1, 1, 0.5],[0, 40, 0], "#00ff00"],	
+    [[215, 150, 0], [1, 1, 0.5],[0, 0, 0], "#00ff00"],		
+    [[-275, 35, 0], [1, 1, 0.5],[0, 0, 0], "#00ff00"],	
+    [[275, 135, 0], [1, 1, 0.5],[0, 70, 0], "#00ff00"],	
+    [[170, 180, 0], [1, 1, 0.5],[0, 0, 0], "#00ff00"],	
+	
+    [[150, -125, 0], [1, 1, 0.5],[0, 0, 0], "#ffff00"],
+    [[77, -171, 0], [1, 1, 0.5],[0, 40, 0], "#ffff00"],
+    [[-77, 171, 0], [1, 1, 0.5],[0, 0, 0], "#ffff00"],
+    [[325, -335, 0], [1, 1, 0.5],[0, 30, 0], "#ffff00"],	
+    [[-50, 255, 0], [1, 1, 0.5],[0, 0, 0], "#ffff00"],	
+    [[-151, 255, 0], [1, 1, 0.5],[0, 0, 0], "#ffff00"],
+    [[322, 330, 0], [1, 1, 0.5],[0, 0, 0], "#ffff00"],	
+    [[-322, -330, 0], [1, 1, 0.5],[0, 75, 0], "#ffff00"],	
+    [[-133, 25, 0], [1, 1, 0.5],[0, 0, 0], "#ffff00"],
+    [[133, 55, 0], [1, 1, 0.5],[0, 0, 0], "#ffff00"],
+	
+    [[355, -20, 0], [1, 1, 0.5],[0, 0, 0], "#0000ff"],	
+    [[-116, 205, 0], [1, 1, 0.5],[0, 0, 0], "#0000ff"],
+    [[116, -275, 0], [1, 1, 0.5],[0, 50, 0], "#0000ff"],
+    [[-350, 320, 0], [1, 1, 0.5],[0, 0, 0], "#0000ff"],
+    [[350, -320, 0], [1, 1, 0.5],[0, 0, 0], "#0000ff"],
+    [[320, 165, 0], [1, 1, 0.5],[0, 60, 0], "#0000ff"],	
+    [[-320, 125, 0], [1, 1, 0.5],[0, 0, 0], "#0000ff"],	
+    [[-57, 351, 0], [1, 1, 0.5],[0, 0, 0], "#0000ff"],	
+    [[57, 151, 0], [1, 1, 0.5],[0, 50, 0], "#0000ff"],	
+    [[377, 371, 0], [1, 1, 0.5],[0, 0, 0], "#0000ff"]	
+
+	
+	],
+	
+    "objects": [
+
+	{    
+	  "name": "kastje",	
+	  "type": "box",
+      "position": [233,-140,25],
+      "size": [30,85,50],
+      "rotation": [0,0,0],
+      "color": "#888888",
+      "physicsOptions": "fixed"
+	},		
+	{    
+	  "name": "kastje deur L",	
+	  "type": "box",
+      "position": [218,-119,26],
+      "size": [2,40,44],
+      "rotation": [0,0,0],
+      "color": "#888888",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "kastje deur R",	
+	  "type": "box",
+      "position": [218,-161,26],
+      "size": [2,40,44],
+      "rotation": [0,0,0],
+      "color": "#888888",
+      "physicsOptions": "fixed"
+	},		
+	
+	{    
+	  "name": "bureautafelblad",	
+	  "type": "box",
+      "position": [-225,-350,70],
+      "size": [130,90,3],
+      "rotation": [0,0,0],
+      "color": "#e5e5e5",
+      "physicsOptions": "fixed"
+	},
+	{    
+	  "name": "bureautafelpoot 1",	
+	  "type": "box",
+      "position": [-285,-310,35],
+      "size": [6,6,70],
+      "rotation": [0,0,0],
+      "color": "#e5e5e5",
+      "physicsOptions": "fixed"
+	},
+	{    
+	  "name": "bureautafelpoot 2",	
+	  "type": "box",
+      "position": [-165,-310,35],
+      "size": [6,6,70],
+      "rotation": [0,0,0],
+      "color": "#e5e5e5",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "bureautafelpoot 3",	
+	  "type": "box",
+      "position": [-285,-390,35],
+      "size": [6,6,70],
+      "rotation": [0,0,0],
+      "color": "#e5e5e5",
+      "physicsOptions": "fixed"
+	},
+	{    
+	  "name": "bureautafelpoot 4",	
+	  "type": "box",
+      "position": [-165,-390,35],
+      "size": [6,6,70],
+      "rotation": [0,0,0],
+      "color": "#e5e5e5",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "bank 1 bodem",	
+	  "type": "box",
+      "position": [-185,-155,2.5],
+      "size": [200,80,5],
+      "rotation": [0,0,0],
+      "color": "#222222",
+      "physicsOptions": "fixed"
+	},
+	{    
+	  "name": "bank 1 zitting",	
+	  "type": "box",
+      "position": [-185,-155,25],
+      "size": [205,85,40],
+      "rotation": [0,0,0],
+      "color": "#222222",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "bank 1 leuning",	
+	  "type": "box",
+      "position": [-185,-196,65],
+      "size": [205,10,50],
+      "rotation": [-10,0,0],
+      "color": "#222222",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "bank 1 leuning L",	
+	  "type": "cylinder",
+      "position": [-83,-155,50],
+      "size": [88,30,0],
+      "rotation": [90,0,0],
+      "color": "#222222",
+      "physicsOptions": "fixed"
+	},
+	{    
+	  "name": "bank 1 leuning R",	
+	  "type": "cylinder",
+      "position": [-283,-155,50],
+      "size": [88,30,0],
+      "rotation": [90,0,0],
+      "color": "#222222",
+      "physicsOptions": "fixed"
+	},
+	{    
+	  "name": "bank 2 bodem",	
+	  "type": "box",
+      "position": [-350,65,2.5],
+      "size": [80,250,5],
+      "rotation": [0,0,0],
+      "color": "#222222",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "bank 2 zitting",	
+	  "type": "box",
+      "position": [-350,65,25],
+      "size": [85,255,40],
+      "rotation": [0,0,0],
+      "color": "#222222",
+      "physicsOptions": "fixed"
+	},
+	{    
+	  "name": "bank 1 leuning",	
+	  "type": "box",
+      "position": [-391,65,65],
+      "size": [255,10,50],
+      "rotation": [-10,90,0],
+      "color": "#222222",
+      "physicsOptions": "fixed"
+	},		
+	{    
+	  "name": "bank 2 leuning L",	
+	  "type": "cylinder",
+      "position": [-350,-60,50],
+      "size": [88,30,0],
+      "rotation": [90,90,0],
+      "color": "#222222",
+      "physicsOptions": "fixed"
+	},
+	{    
+	  "name": "bank 2 leuning R",	
+	  "type": "cylinder",
+      "position": [-350,190,50],
+      "size": [88,30,0],
+      "rotation": [90,90,0],
+      "color": "#222222",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "salontafelblad",	
+	  "type": "box",
+      "position": [-170,35,40],
+      "size": [80,180,2],
+      "rotation": [0,0,0],
+      "color": "#e5e5e5cc",
+      "physicsOptions": "fixed"
+	},
+	{    
+	  "name": "salontafelpoot 1",	
+	  "type": "box",
+      "position": [-134,120,20],
+      "size": [6,6,40],
+      "rotation": [0,0,0],
+      "color": "#666666",
+      "physicsOptions": "fixed"
+	},
+	{    
+	  "name": "salontafelpoot 2",	
+	  "type": "box",
+      "position": [-134,-50,20],
+      "size": [6,6,40],
+      "rotation": [0,0,0],
+      "color": "#666666",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "salontafelpoot 3",	
+	  "type": "box",
+      "position": [-206,120,20],
+      "size": [6,6,40],
+      "rotation": [0,0,0],
+      "color": "#666666",
+      "physicsOptions": "fixed"
+	},
+	{    
+	  "name": "salontafelpoot 4",	
+	  "type": "box",
+      "position": [-206,-50,20],
+      "size": [6,6,40],
+      "rotation": [0,0,0],
+      "color": "#666666",
+      "physicsOptions": "fixed"
+	},
+	{    
+	  "name": "rond salonblad",	
+	  "type": "cylinder",
+      "position": [-345,-125,60],
+      "size": [3,75,0],
+      "rotation": [0,0,0],
+      "color": "#e5e5e5",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "rond salonpoot",	
+	  "type": "cylinder",
+      "position": [-345,-125,30],
+      "size": [60,6,0],
+      "rotation": [0,0,0],
+      "color": "#222222",
+      "physicsOptions": "fixed"
+	},
+	{    
+	  "name": "rond salonpoot",	
+	  "type": "cylinder",
+      "position": [-345,-125,1.5],
+      "size": [3,30,0],
+      "rotation": [0,0,0],
+      "color": "#222222",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "TV meubel bodem",	
+	  "type": "box",
+      "position": [-210,370,5],
+      "size": [100,40,10],
+      "rotation": [0,0,0],
+      "color": "#222222",
+      "physicsOptions": "fixed"
+	},
+	{    
+	  "name": "TV meubel body",	
+	  "type": "box",
+      "position": [-210,370,25],
+      "size": [105,45,45],
+      "rotation": [0,0,0],
+      "color": "#222222",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "TV meubel lade boven",	
+	  "type": "box",
+      "position": [-210,347,36],
+      "size": [103,2,20],
+      "rotation": [0,0,0],
+      "color": "#222222",
+      "physicsOptions": "fixed"
+	},	
+    {
+	  "name": "TV meubel lade boven knop",	
+      "type": "sphere",
+      "position": [-210,345,36],
+      "size": [2],
+      "color": "#888888",
+      "physicsOptions": "fixed"
+    },	
+	{    
+	  "name": "TV meubel lade onder",	
+	  "type": "box",
+      "position": [-210,347,15],
+      "size": [103,2,20],
+      "rotation": [0,0,0],
+      "color": "#222222",
+      "physicsOptions": "fixed"
+	},		
+    {
+	  "name": "TV meubel lade onder knop",	
+      "type": "sphere",
+      "position": [-210,345,15],
+      "size": [2],
+      "color": "#888888",
+      "physicsOptions": "fixed"
+    },	
+	{    
+	  "name": "TV",	
+	  "type": "box",
+      "position": [-210,380,70],
+      "size": [75,4,40],
+      "rotation": [0,0,0],
+      "color": "#111111",
+      "physicsOptions": "fixed"
+	},		
+	{    
+	  "name": "TV voet",	
+	  "type": "cylinder",
+      "position": [-210,380,49],
+      "size": [4,20,0],
+      "rotation": [0,90,0],
+      "color": "#111111",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "speaker body L",	
+	  "type": "box",
+      "position": [-330,375,22.5],
+      "size": [30,30,45],
+      "rotation": [0,-10,0],
+      "color": "#333333",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "speaker body R",	
+	  "type": "box",
+      "position": [-90,375,22.5],
+      "size": [30,30,45],
+      "rotation": [0,10,0],
+      "color": "#333333",
+      "physicsOptions": "fixed"
+	},		
+	{    
+	  "name": "keukentafelblad",	
+	  "type": "box",
+      "position": [136,165,63],
+      "size": [80,65,3],
+      "rotation": [0,0,0],
+      "color": "#ae8357",
+      "physicsOptions": "fixed"
+	},		
+	{    
+	  "name": "keukentafelpoot 1",	
+	  "type": "box",
+      "position": [172,136,31],
+      "size": [3,3,62],
+      "rotation": [0,0,0],
+      "color": "#ae8357",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "keukentafelpoot 2",	
+	  "type": "box",
+      "position": [100,136,31],
+      "size": [3,3,62],
+      "rotation": [0,0,0],
+      "color": "#ae8357",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "keukentafelpoot 3",	
+	  "type": "box",
+      "position": [172,194,31],
+      "size": [3,3,62],
+      "rotation": [0,0,0],
+      "color": "#ae8357",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "keukentafelpoot 4",	
+	  "type": "box",
+      "position": [100,194,31],
+      "size": [3,3,62],
+      "rotation": [0,0,0],
+      "color": "#ae8357",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "prullebak body",	
+	  "type": "cylinder",
+      "position": [40,361,15],
+      "size": [30,25,0],
+      "rotation": [0,90,0],
+      "color": "#eeeeee",
+      "physicsOptions": {
+        "mass": 50,
+        "friction": 10,
+        "restitution": 0
+      }
+	},	
+	{    
+	  "name": "koelkast bodem",	
+	  "type": "box",
+      "position": [225,368,2.5],
+      "size": [45,45,5],
+      "rotation": [0,0,0],
+      "color": "#111111",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "koelkast body",	
+	  "type": "box",
+      "position": [225,368,35],
+      "size": [45,45,60],
+      "rotation": [0,0,0],
+      "color": "#eeeeee",
+      "physicsOptions": "fixed"
+	},
+	{    
+	  "name": "koelkast deur",	
+	  "type": "box",
+      "position": [225,346,35],
+      "size": [46,5,61],
+      "rotation": [0,0,0],
+      "color": "#eeeeee",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "koelkast handvat",	
+	  "type": "box",
+      "position": [205,342,50],
+      "size": [3,4,20],
+      "rotation": [0,0,0],
+      "color": "#222222",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "keukenblok bodem",	
+	  "type": "box",
+      "position": [125,370,5],
+      "size": [140,40,10],
+      "rotation": [0,0,0],
+      "color": "#aaaaaa",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "keukenblok body",	
+	  "type": "box",
+      "position": [125,370,30],
+      "size": [140,50,40],
+      "rotation": [0,0,0],
+      "color": "#eeeeee",
+      "physicsOptions": "fixed"
+	},	
+	{
+	  "name": "kraan body",	
+	  "type": "cylinder",
+      "position": [125,390,70],
+      "size": [5,3,0],
+      "rotation": [0,90,0],
+      "color": "#ffffff",
+      "physicsOptions": "fixed"
+	},	
+	{
+	  "name": "kraan knop links",	
+	  "type": "cylinder",
+      "position": [123,390,70],
+      "size": [5,2,0],
+      "rotation": [0,0,45],
+      "color": "#ffffff",
+      "physicsOptions": "fixed"
+	},	
+	{
+	  "name": "kraan knop rechts",	
+	  "type": "cylinder",
+      "position": [127,390,70],
+      "size": [5,2,0],
+      "rotation": [0,0,-45],
+      "color": "#ffffff",
+      "physicsOptions": "fixed"
+	},		
+	{
+	  "name": "kraan hor",	
+	  "type": "cylinder",
+      "position": [125,390,75],
+      "size": [10,1.5,0],
+      "rotation": [0,90,0],
+      "color": "#ffffff",
+      "physicsOptions": "fixed"
+	},	
+    {
+	  "name": "kraan knik",	
+      "type": "sphere",
+      "position": [125,390,80],
+      "size": [1.5],
+      "color": "#ffffff",
+      "physicsOptions": "fixed"
+    },			
+	{
+	  "name": "kraan ver",	
+	  "type": "cylinder",
+      "position": [125,385,80],
+      "size": [10,1.5,0],
+      "rotation": [90,0,0],
+      "color": "#ffffff",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "keukenla links",	
+	  "type": "box",
+      "position": [80,344,57],
+      "size": [43,2,10],
+      "rotation": [0,0,0],
+      "color": "#ffffff",
+      "physicsOptions": "fixed"
+	},	
+    {
+	  "name": "keukenlade knop links",	
+      "type": "sphere",
+      "position": [80,342,57],
+      "size": [2],
+      "color": "#888888",
+      "physicsOptions": "fixed"
+    },		
+	{    
+	  "name": "keukenkastje links",	
+	  "type": "box",
+      "position": [80,344,30],
+      "size": [43,2,38],
+      "rotation": [0,0,0],
+      "color": "#ffffff",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "keukenla midden",	
+	  "type": "box",
+      "position": [125,344,57],
+      "size": [43,2,10],
+      "rotation": [0,0,0],
+      "color": "#ffffff",
+      "physicsOptions": "fixed"
+	},	
+    {
+	  "name": "keukenlade knop midden",	
+      "type": "sphere",
+      "position": [125,342,57],
+      "size": [2],
+      "color": "#888888",
+      "physicsOptions": "fixed"
+    },		
+	{    
+	  "name": "keukenkastje midden",	
+	  "type": "box",
+      "position": [125,344,30],
+      "size": [43,2,38],
+      "rotation": [0,0,0],
+      "color": "#ffffff",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "keukenla rechts",	
+	  "type": "box",
+      "position": [170,344,57],
+      "size": [43,2,10],
+      "rotation": [0,0,0],
+      "color": "#ffffff",
+      "physicsOptions": "fixed"
+	},	
+    {
+	  "name": "keukenlade knop rechts",	
+      "type": "sphere",
+      "position": [170,342,57],
+      "size": [2],
+      "color": "#888888",
+      "physicsOptions": "fixed"
+    },		
+	{    
+	  "name": "keukenkastje rechts",	
+	  "type": "box",
+      "position": [170,344,30],
+      "size": [43,2,38],
+      "rotation": [0,0,0],
+      "color": "#ffffff",
+      "physicsOptions": "fixed"
+	},		
+	{    
+	  "name": "keukenblad 1 onder",	
+	  "type": "box",
+      "position": [82.5,370,55],
+      "size": [55,50,20],
+      "rotation": [0,0,0],
+      "color": "#eeeeee",
+      "physicsOptions": "fixed"
+	},
+	{    
+	  "name": "keukenblad 1 boven",	
+	  "type": "box",
+      "position": [82.5,367.5,67],
+      "size": [55,55,4],
+      "rotation": [0,0,0],
+      "color": "#7f828b",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "keukenblad 2 onder",	
+	  "type": "box",
+      "position": [125,390,55],
+      "size": [30,10,20],
+      "rotation": [0,0,0],
+      "color": "#eeeeee",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "keukenblad 2 boven",	
+	  "type": "box",
+      "position": [125,390,67],
+      "size": [30,10,4],
+      "rotation": [0,0,0],
+      "color": "#7f828b",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "keukenblad 3 onder",	
+	  "type": "box",
+      "position": [125,347.5,55],
+      "size": [30,5,20],
+      "rotation": [0,0,0],
+      "color": "#eeeeee",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "keukenblad 3 onder",	
+	  "type": "box",
+      "position": [125,345,67],
+      "size": [30,10,4],
+      "rotation": [0,0,0],
+      "color": "#7f828b",
+      "physicsOptions": "fixed"
+	},		
+	{    
+	  "name": "keukenblad 4 onder",	
+	  "type": "box",
+      "position": [167.5,370,55],
+      "size": [55,50,20],
+      "rotation": [0,0,0],
+      "color": "#eeeeee",
+      "physicsOptions": "fixed"
+	},		
+	{    
+	  "name": "keukenblad 4 boven",	
+	  "type": "box",
+      "position": [167.5,367.5,67],
+      "size": [55,55,4],
+      "rotation": [0,0,0],
+      "color": "#7f828b",
+      "physicsOptions": "fixed"
+	},
+	{    
+	  "name": "hal meubel bodem",	
+	  "type": "box",
+      "position": [380,30,12],
+      "size": [80,25,2],
+      "rotation": [0,90,0],
+      "color": "#ae8357",
+      "physicsOptions": "fixed"
+	},
+	{    
+	  "name": "hal meubel poot 1",	
+	  "type": "box",
+      "position": [380,68,7],
+      "size": [23,2,15],
+      "rotation": [0,0,0],
+      "color": "#ae8357",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "hal meubel poot 2",	
+	  "type": "box",
+      "position": [380,-8,7],
+      "size": [23,2,15],
+      "rotation": [0,0,0],
+      "color": "#ae8357",
+      "physicsOptions": "fixed"
+	},	
+
+	{    
+	  "name": "hal meubel body",	
+	  "type": "box",
+      "position": [380,30,30],
+      "size": [85,30,35],
+      "rotation": [0,90,0],
+      "color": "#ae8357",
+      "physicsOptions": "fixed"
+	},	
+	{    
+	  "name": "hal meubel lade boven",	
+	  "type": "box",
+      "position": [364,30,38],
+      "size": [83,2,15],
+      "rotation": [0,90,0],
+      "color": "#ae8357",
+      "physicsOptions": "fixed"
+	},	
+    {
+	  "name": "hal meubel lade boven knop",	
+      "type": "sphere",
+      "position": [362,30,38],
+      "size": [2],
+      "color": "#888888",
+      "physicsOptions": "fixed"
+    },	
+	{    
+	  "name": "hal meubel lade onder",	
+	  "type": "box",
+      "position": [364,30,21],
+      "size": [83,2,15],
+      "rotation": [0,90,0],
+      "color": "#ae8357",
+      "physicsOptions": "fixed"
+	},		
+    {
+	  "name": "hal meubel lade onder knop",	
+      "type": "sphere",
+      "position": [362,30,21],
+      "size": [2],
+      "color": "#888888",
+      "physicsOptions": "fixed"
+    }			
+	],
+    "startPos": "imageDefault",
+    "startPosXY": "20,-20",
+    "startRot": "320"
+  }
+	
+  
+}

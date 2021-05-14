@@ -1,0 +1,1400 @@
+{
+  "name": "sorting machine",
+  "shortDescription": "sorting machine",
+  "longDescription": "<p>Custom robot created in the configurator.</p>",
+  "longerDescription": "<h3>#robot-dimensions#</h3><ul><li>#robot-wheelDiameter#: 3.8 cm</li><li>#robot-wheelSpacing#: 1.1 cm</li></ul><h3>#robot-actuators#</h3><ul><li>#robot-port# A : #robot-leftWheel#</li><li>#robot-port# B : #robot-rightWheel#</li><li>#robot-port# C : Motorized Arm</li><li>#robot-port# D : Swivel Platform</li><li>#robot-port# E : Motorized Arm</li><li>#robot-port# F : Motorized Arm</li><li>#robot-port# G : Swivel Platform</li></ul><h3>#robot-sensors#</h3><ul><li>#robot-port# 1 : Color Sensor</li><li>#robot-port# 2 : Laser Range Sensor</li></ul>",
+  "thumbnail": "",
+  "bodyHeight": 5,
+  "bodyWidth": 0.1,
+  "bodyLength": 9.5,
+  "wheelDiameter": 3.8,
+  "wheelWidth": 0.8,
+  "wheelToBodyOffset": 0.1,
+  "bodyEdgeToWheelCenterY": 1.2,
+  "bodyEdgeToWheelCenterZ": 3.9,
+  "bodyMass": 70000,
+  "wheelMass": 200,
+  "casterMass": 0,
+  "wheelFriction": 10,
+  "bodyFriction": 0.05,
+  "casterFriction": 0,
+  "components": [
+    {
+      "type": "Box",
+      "position": [
+        0,
+        -2.8,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "options": {
+        "height": 0.8,
+        "width": 8,
+        "depth": 14.5,
+        "color": "ffffff"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        0,
+        6,
+        6.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "options": {
+        "height": 18,
+        "width": 9,
+        "depth": 0.5,
+        "color": "ffffff"
+      }
+    },
+    {
+      "type": "ArmActuator",
+      "position": [
+        0,
+        13.3,
+        8
+      ],
+      "rotation": [
+        1.5707963267948966,
+        0,
+        0
+      ],
+      "components": [
+        {
+          "type": "Box",
+          "position": [
+            0,
+            1.7,
+            4.4
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 0.9,
+            "width": 10,
+            "depth": 17,
+            "color": "222222"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            0,
+            1,
+            2
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 1.2,
+            "width": 1,
+            "depth": 4,
+            "color": "111111"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            0,
+            21.3,
+            12.4
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 40,
+            "width": 8,
+            "depth": 1,
+            "color": "222222"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            -4,
+            21.3,
+            11.5
+          ],
+          "rotation": [
+            0,
+            1.2217304763960306,
+            0
+          ],
+          "options": {
+            "height": 40,
+            "width": 0.2,
+            "depth": 4,
+            "color": "222222"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            -4.9,
+            3.2,
+            3.4
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 3,
+            "width": 0.2,
+            "depth": 15,
+            "color": "222222"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            5,
+            3.2,
+            2.5
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 3,
+            "width": 0.2,
+            "depth": 15,
+            "color": "222222"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            4.5,
+            21.3,
+            11.3
+          ],
+          "rotation": [
+            0,
+            -0.3490658503988659,
+            0
+          ],
+          "options": {
+            "height": 40,
+            "width": 0.2,
+            "depth": 3,
+            "color": "222222"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            -3.2,
+            3,
+            -4
+          ],
+          "rotation": [
+            0,
+            -0.5235987755982988,
+            0
+          ],
+          "options": {
+            "height": 2,
+            "width": 0.3,
+            "depth": 7,
+            "color": "222222"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            3.2,
+            3,
+            -4
+          ],
+          "rotation": [
+            0,
+            0.5235987755982988,
+            0
+          ],
+          "options": {
+            "height": 2,
+            "width": 0.3,
+            "depth": 7,
+            "color": "222222"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            0,
+            2.2,
+            12
+          ],
+          "rotation": [
+            0.5235987755982988,
+            0,
+            0
+          ],
+          "options": {
+            "height": 1,
+            "width": 8,
+            "depth": 0.3,
+            "color": "222222"
+          }
+        }
+      ],
+      "options": {
+        "armColor": "A3CF0D",
+        "armLength": 8
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        -0.4,
+        -0.7,
+        50
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "options": {
+        "height": 5,
+        "width": 11,
+        "depth": 1,
+        "color": "ff0000"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        -44.1,
+        -1,
+        46.45
+      ],
+      "rotation": [
+        0,
+        0.5235987755982988,
+        0
+      ],
+      "options": {
+        "height": 4,
+        "width": 10,
+        "depth": 1,
+        "color": "ff0000"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        5.4,
+        -0.7,
+        30.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "options": {
+        "height": 5,
+        "width": 0.5,
+        "depth": 40,
+        "color": "ff0000"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        0,
+        13.5,
+        5.7
+      ],
+      "rotation": [
+        -0.7853981633974483,
+        0,
+        0
+      ],
+      "options": {
+        "height": 0.5,
+        "width": 7,
+        "depth": 2.9,
+        "color": "ffffff"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        -1.4,
+        13,
+        3.1
+      ],
+      "rotation": [
+        -0.2617993877991494,
+        0,
+        0.8726646259971648
+      ],
+      "options": {
+        "height": 2.5,
+        "width": 0.5,
+        "depth": 7,
+        "color": "ffffff"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        1.4,
+        13,
+        3.1
+      ],
+      "rotation": [
+        -0.2617993877991494,
+        0,
+        -0.8726646259971648
+      ],
+      "options": {
+        "height": 2.5,
+        "width": 0.5,
+        "depth": 7,
+        "color": "ffffff"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        0.55,
+        9.1,
+        -3.2
+      ],
+      "rotation": [
+        1.3089969389957472,
+        0,
+        0
+      ],
+      "options": {
+        "height": 7.1,
+        "width": 0.5,
+        "depth": 1,
+        "color": "ffffff"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        -0.55,
+        9.1,
+        -3.2
+      ],
+      "rotation": [
+        1.3089969389957472,
+        0,
+        0
+      ],
+      "options": {
+        "height": 7.7,
+        "width": 0.5,
+        "depth": 1,
+        "color": "ffffff"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        0,
+        13.6,
+        -0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "options": {
+        "height": 4.2,
+        "width": 5.6,
+        "depth": 0.5,
+        "color": "ffffff"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        0,
+        8,
+        -3.2
+      ],
+      "rotation": [
+        1.3089969389957472,
+        0,
+        0
+      ],
+      "options": {
+        "height": 6.6,
+        "width": 1.7,
+        "depth": 1,
+        "color": "111111"
+      }
+    },
+    {
+      "type": "SwivelActuator",
+      "position": [
+        1.9,
+        8.4,
+        3
+      ],
+      "rotation": [
+        -0.2617993877991494,
+        0,
+        1.5707963267948966
+      ],
+      "components": [
+        {
+          "type": "Cylinder",
+          "position": [
+            0,
+            1.1,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 0.9,
+            "diameter": 6.5,
+            "color": "000000"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            -2.1,
+            1.15,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 0.5,
+            "width": 1.1,
+            "depth": 0.8,
+            "color": "000000"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            4,
+            1.5,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 0.3,
+            "width": 1.1,
+            "depth": 0.8,
+            "color": "000000"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            0,
+            1.15,
+            -2.2
+          ],
+          "rotation": [
+            0,
+            -1.5707963267948966,
+            0
+          ],
+          "options": {
+            "height": 0.5,
+            "width": 1.1,
+            "depth": 0.8,
+            "color": "111111"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            0,
+            1.15,
+            2.2
+          ],
+          "rotation": [
+            0,
+            1.5707963267948966,
+            0
+          ],
+          "options": {
+            "height": 0.5,
+            "width": 1.1,
+            "depth": 0.8,
+            "color": "111111"
+          }
+        },
+        {
+          "type": "Cylinder",
+          "position": [
+            1.6,
+            1.6,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 0.3,
+            "diameter": 5.4,
+            "color": "111111"
+          }
+        }
+      ],
+      "options": {}
+    },
+    {
+      "type": "ArmActuator",
+      "position": [
+        -5.7,
+        0,
+        7.9
+      ],
+      "rotation": [
+        -1.5707963267948966,
+        0,
+        1.5707963267948966
+      ],
+      "components": [
+        {
+          "type": "Box",
+          "position": [
+            0,
+            5,
+            -1.5
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 9,
+            "width": 1,
+            "depth": 2,
+            "color": "dd0000"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            -3.7,
+            6,
+            -2
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 7,
+            "width": 6.5,
+            "depth": 1,
+            "color": "dd0000"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            -7.5,
+            18,
+            -2.5
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 31,
+            "width": 1,
+            "depth": 2,
+            "color": "dd0000"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            -4.07,
+            39.3,
+            -2.5
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.5235987755982988
+          ],
+          "options": {
+            "height": 14,
+            "width": 1,
+            "depth": 2,
+            "color": "dd0000"
+          }
+        }
+      ],
+      "options": {
+        "armColor": "dd0000",
+        "maxAngle": 360,
+        "minAngle": -360,
+        "armLength": 3
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        -14,
+        -1,
+        47.1
+      ],
+      "rotation": [
+        0,
+        -0.3490658503988659,
+        0
+      ],
+      "options": {
+        "height": 4,
+        "width": 18,
+        "depth": 1,
+        "color": "dd0000"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        0,
+        9.8,
+        -4
+      ],
+      "rotation": [
+        -0.2617993877991494,
+        0,
+        0
+      ],
+      "options": {
+        "height": 0.7,
+        "width": 1.5,
+        "depth": 6.2,
+        "color": "ffffff"
+      }
+    },
+    {
+      "type": "ArmActuator",
+      "position": [
+        -2.4,
+        -1,
+        -11.8
+      ],
+      "rotation": [
+        0,
+        -1.5707963267948966,
+        1.5707963267948966
+      ],
+      "components": [
+        {
+          "type": "Box",
+          "position": [
+            3,
+            0,
+            0.5
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 0.5,
+            "width": 3.1,
+            "depth": 13,
+            "color": "111111"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            3,
+            0,
+            0.5
+          ],
+          "rotation": [
+            -1.0471975511965976,
+            0,
+            0
+          ],
+          "options": {
+            "height": 0.5,
+            "width": 3.1,
+            "depth": 13,
+            "color": "111111"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            3,
+            0,
+            0.5
+          ],
+          "rotation": [
+            1.0471975511965976,
+            0,
+            0
+          ],
+          "options": {
+            "height": 0.5,
+            "width": 3.1,
+            "depth": 13,
+            "color": "111111"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            3,
+            -1.5,
+            6.5
+          ],
+          "rotation": [
+            0.3490658503988659,
+            0,
+            0
+          ],
+          "options": {
+            "height": 3.5,
+            "width": 3,
+            "depth": 0.5,
+            "color": "dd0000"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            3,
+            -4.4,
+            4.8
+          ],
+          "rotation": [
+            0.6981317007977318,
+            0,
+            0
+          ],
+          "options": {
+            "height": 3.5,
+            "width": 3,
+            "depth": 0.5,
+            "color": "dd0000"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            3,
+            -6,
+            2
+          ],
+          "rotation": [
+            1.3962634015954636,
+            0,
+            0
+          ],
+          "options": {
+            "height": 3.5,
+            "width": 3,
+            "depth": 0.5,
+            "color": "dddd00"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            3,
+            -6,
+            -1.2
+          ],
+          "rotation": [
+            1.7453292519943295,
+            0,
+            0
+          ],
+          "options": {
+            "height": 3.5,
+            "width": 3,
+            "depth": 0.5,
+            "color": "dddd00"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            3,
+            -1.5,
+            -5.7
+          ],
+          "rotation": [
+            -0.3490658503988659,
+            0,
+            0
+          ],
+          "options": {
+            "height": 3.5,
+            "width": 3,
+            "depth": 0.5,
+            "color": "00dd00"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            3,
+            -4.4,
+            -4
+          ],
+          "rotation": [
+            -0.6981317007977318,
+            0,
+            0
+          ],
+          "options": {
+            "height": 3.5,
+            "width": 3,
+            "depth": 0.5,
+            "color": "00ff00"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            3,
+            1.7,
+            -5.7
+          ],
+          "rotation": [
+            0.3490658503988659,
+            0,
+            0
+          ],
+          "options": {
+            "height": 3.5,
+            "width": 3,
+            "depth": 0.5,
+            "color": "0000ff"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            3,
+            4.5,
+            -4
+          ],
+          "rotation": [
+            0.7330382858376184,
+            0,
+            0
+          ],
+          "options": {
+            "height": 3.5,
+            "width": 3,
+            "depth": 0.5,
+            "color": "0000ff"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            3,
+            6.1,
+            -1.2
+          ],
+          "rotation": [
+            -1.7453292519943295,
+            0,
+            0
+          ],
+          "options": {
+            "height": 3.5,
+            "width": 3,
+            "depth": 0.5,
+            "color": "ff00ff"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            3,
+            6.1,
+            2.2
+          ],
+          "rotation": [
+            -1.3613568165555772,
+            0,
+            0
+          ],
+          "options": {
+            "height": 3.5,
+            "width": 3,
+            "depth": 0.5,
+            "color": "ff00ff"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            3,
+            1.7,
+            6.5
+          ],
+          "rotation": [
+            -0.3490658503988659,
+            0,
+            0
+          ],
+          "options": {
+            "height": 3.5,
+            "width": 3,
+            "depth": 0.5,
+            "color": "ffffff"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            3,
+            4.5,
+            4.9
+          ],
+          "rotation": [
+            -0.6981317007977318,
+            0,
+            0
+          ],
+          "options": {
+            "height": 3.5,
+            "width": 3,
+            "depth": 0.5,
+            "color": "ffffff"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            1,
+            0,
+            0.5
+          ],
+          "rotation": [
+            -0.5235987755982988,
+            0,
+            0
+          ],
+          "options": {
+            "height": 6,
+            "width": 1,
+            "depth": 12,
+            "color": "111111"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            1,
+            0,
+            0.5
+          ],
+          "rotation": [
+            -1.5707963267948966,
+            0,
+            0
+          ],
+          "options": {
+            "height": 6,
+            "width": 1,
+            "depth": 12,
+            "color": "111111"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            1,
+            0,
+            0.5
+          ],
+          "rotation": [
+            0.5235987755982988,
+            0,
+            0
+          ],
+          "options": {
+            "height": 6,
+            "width": 1,
+            "depth": 12,
+            "color": "111111"
+          }
+        }
+      ],
+      "options": {
+        "armColor": "A3CF0D",
+        "armLength": 1,
+        "minAngle": -5000,
+        "maxAngle": 5000
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        0.55,
+        11.3,
+        1.8
+      ],
+      "rotation": [
+        -0.2617993877991494,
+        0,
+        0
+      ],
+      "options": {
+        "height": 1.3,
+        "width": 0.5,
+        "depth": 6,
+        "color": "ffffff"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        -5,
+        -2,
+        29.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "options": {
+        "height": 2,
+        "width": 2,
+        "depth": 41,
+        "color": "dd0000"
+      }
+    },
+    {
+      "type": "SwivelActuator",
+      "position": [
+        1,
+        6.3,
+        -5.1
+      ],
+      "rotation": [
+        -1.8325957145940461,
+        0,
+        0
+      ],
+      "components": [
+        {
+          "type": "Cylinder",
+          "position": [
+            0,
+            0.5,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 1,
+            "diameter": 0.3,
+            "color": "111111"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            -0.9,
+            0.8,
+            0.7
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 1,
+            "width": 2,
+            "depth": 1.7,
+            "color": "000000"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            0.8,
+            0.8,
+            1.7
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 1,
+            "width": 1.8,
+            "depth": 2,
+            "color": "000000"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            -0.2,
+            0.8,
+            1.6
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.6108652381980153
+          ],
+          "options": {
+            "height": 0.7,
+            "width": 0.7,
+            "depth": 2.3,
+            "color": "000000"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            -0.9,
+            1.45,
+            1.9
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 0.3,
+            "width": 1.6,
+            "depth": 1.7,
+            "color": "000000"
+          }
+        }
+      ],
+      "options": {}
+    },
+    {
+      "type": "Box",
+      "position": [
+        0,
+        0.3,
+        0.9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "options": {
+        "height": 6.6,
+        "width": 7.7,
+        "depth": 11.3,
+        "color": "ffffff"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        -25,
+        -1,
+        44
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "options": {
+        "height": 4,
+        "width": 30,
+        "depth": 1,
+        "color": "dd0000"
+      }
+    },
+    {
+      "type": "ColorSensor",
+      "position": [
+        -2.7,
+        8.2,
+        -7.5
+      ],
+      "rotation": [
+        -0.2617993877991494,
+        1.5707963267948966,
+        0
+      ],
+      "options": {
+        "sensorFov": 0.08
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        0,
+        11.3,
+        4.1
+      ],
+      "rotation": [
+        -0.6108652381980153,
+        -1.5707963267948966,
+        0
+      ],
+      "options": {
+        "height": 1.7,
+        "width": 2.5,
+        "depth": 0.6,
+        "color": "ffffff"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        -0.55,
+        11.3,
+        1.8
+      ],
+      "rotation": [
+        -0.2617993877991494,
+        0,
+        0
+      ],
+      "options": {
+        "height": 1.3,
+        "width": 0.5,
+        "depth": 6,
+        "color": "ffffff"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        0,
+        11.3,
+        -0.6
+      ],
+      "rotation": [
+        -0.5235987755982988,
+        0,
+        0
+      ],
+      "options": {
+        "height": 0.3,
+        "width": 1.7,
+        "depth": 1.3,
+        "color": "ffffff"
+      }
+    },
+    {
+      "type": "LaserRangeSensor",
+      "position": [
+        0,
+        12.1,
+        -1.35
+      ],
+      "rotation": [
+        -1.5707963267948966,
+        0,
+        0
+      ],
+      "options": {}
+    },
+    {
+      "type": "Box",
+      "position": [
+        1.2,
+        13.8,
+        2.1
+      ],
+      "rotation": [
+        -0.5235987755982988,
+        0.2617993877991494,
+        0
+      ],
+      "options": {
+        "height": 2.3,
+        "width": 0.5,
+        "depth": 5,
+        "color": "ffffff"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        -1,
+        13.5,
+        1.7
+      ],
+      "rotation": [
+        -0.5235987755982988,
+        -0.17453292519943295,
+        0
+      ],
+      "options": {
+        "height": 3,
+        "width": 0.5,
+        "depth": 4.3,
+        "color": "ffffff"
+      }
+    }
+  ],
+  "options": {},
+  "casterDiameter": 0.4,
+  "casterOffsetZ": 0.5
+}

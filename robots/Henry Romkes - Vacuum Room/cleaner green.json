@@ -1,0 +1,856 @@
+{
+  "name": "cleaner green",
+  "shortDescription": "cleaner green",
+  "longDescription": "<p>Custom robot created in the configurator.</p>",
+  "longerDescription": "<h3>#robot-dimensions#</h3><ul><li>#robot-wheelDiameter#: 6.2 cm</li><li>#robot-wheelSpacing#: 23.4 cm</li></ul><h3>#robot-actuators#</h3><ul><li>#robot-port# A : #robot-leftWheel#</li><li>#robot-port# B : #robot-rightWheel#</li><li>#robot-port# C : Swivel Platform</li><li>#robot-port# D : Swivel Platform</li><li>#robot-port# E : Motorized Arm</li></ul><h3>#robot-sensors#</h3><ul><li>#robot-port# 1 : Gyro</li><li>#robot-port# 2 : GPS</li><li>#robot-port# 3 : Laser Range Sensor</li><li>#robot-port# 4 : Laser Range Sensor</li><li>#robot-port# 5 : Laser Range Sensor</li><li>#robot-port# 6 : Laser Range Sensor</li></ul>",
+  "thumbnail": "",
+  "bodyHeight": 1,
+  "bodyWidth": 20,
+  "bodyLength": 1,
+  "wheelDiameter": 6.2,
+  "wheelWidth": 1.8,
+  "wheelToBodyOffset": 0.8,
+  "bodyEdgeToWheelCenterY": 0,
+  "bodyEdgeToWheelCenterZ": 2.4,
+  "bodyMass": 100,
+  "wheelMass": 50,
+  "casterMass": 0,
+  "wheelFriction": 150,
+  "bodyFriction": 0,
+  "casterFriction": 0,
+  "components": [
+    {
+      "type": "GyroSensor",
+      "position": [
+        8,
+        -2.5,
+        -6
+      ],
+      "options": {}
+    },
+    {
+      "type": "GPSSensor",
+      "position": [
+        -8,
+        -2.5,
+        -6
+      ],
+      "options": {}
+    },
+    {
+      "type": "SwivelActuator",
+      "position": [
+        11,
+        -1.5,
+        3
+      ],
+      "rotation": [
+        0,
+        0,
+        1.5707963267948966
+      ],
+      "components": [
+        {
+          "type": "Box",
+          "position": [
+            0,
+            5,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 10,
+            "width": 0.1,
+            "depth": 4,
+            "color": "222222dd"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            0,
+            5,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 10,
+            "width": 4,
+            "depth": 0.1,
+            "color": "222222dd"
+          }
+        }
+      ],
+      "options": {}
+    },
+    {
+      "type": "SwivelActuator",
+      "position": [
+        -11,
+        -1.5,
+        3
+      ],
+      "rotation": [
+        0,
+        0,
+        -1.5707963267948966
+      ],
+      "components": [
+        {
+          "type": "Box",
+          "position": [
+            0,
+            5,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 10,
+            "width": 0.1,
+            "depth": 4,
+            "color": "222222dd"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            0,
+            5,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 10,
+            "width": 4,
+            "depth": 0.1,
+            "color": "222222dd"
+          }
+        }
+      ],
+      "options": {}
+    },
+    {
+      "type": "Box",
+      "position": [
+        10,
+        0.3,
+        -6.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "options": {
+        "height": 1.5,
+        "width": 1,
+        "depth": 18,
+        "color": "a3a3a3"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        -10,
+        0.3,
+        -6.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "options": {
+        "height": 1.5,
+        "width": 1,
+        "depth": 18,
+        "color": "a3a3a3"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        0,
+        0,
+        -15.8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "options": {
+        "height": 2,
+        "width": 21,
+        "depth": 0.5,
+        "color": "fff"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        0,
+        -3.2,
+        -7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "options": {
+        "height": 0.5,
+        "width": 20,
+        "depth": 16,
+        "color": "111111"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        0,
+        -1.9,
+        -15.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "options": {
+        "height": 3,
+        "width": 20,
+        "depth": 0.8,
+        "color": "00ff00"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        -10,
+        -1.9,
+        -5.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "options": {
+        "height": 3,
+        "width": 1,
+        "depth": 20,
+        "color": "00ff00"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        10,
+        -1.9,
+        -5.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "options": {
+        "height": 3,
+        "width": 1,
+        "depth": 20,
+        "color": "00ff00"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        5.7,
+        -1.2,
+        -4
+      ],
+      "rotation": [
+        0,
+        0.7330382858376184,
+        0
+      ],
+      "options": {
+        "height": 4.5,
+        "width": 1,
+        "depth": 12,
+        "color": "111111"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        -5.7,
+        -1.2,
+        -4
+      ],
+      "rotation": [
+        0,
+        -0.7330382858376184,
+        0
+      ],
+      "options": {
+        "height": 4.5,
+        "width": 1,
+        "depth": 12,
+        "color": "111111"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        0,
+        -3.2,
+        1.5
+      ],
+      "rotation": [
+        0.3490658503988659,
+        0,
+        0
+      ],
+      "options": {
+        "height": 0.1,
+        "width": 20,
+        "depth": 2,
+        "color": "111111"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        0,
+        1.3,
+        -2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "options": {
+        "height": 0.5,
+        "width": 21,
+        "depth": 12,
+        "color": "00ff00"
+      }
+    },
+    {
+      "type": "LaserRangeSensor",
+      "position": [
+        12.8,
+        -2.2,
+        8.8
+      ],
+      "rotation": [
+        -1.5707963267948966,
+        0,
+        0
+      ],
+      "options": {}
+    },
+    {
+      "type": "LaserRangeSensor",
+      "position": [
+        -12.8,
+        -2.2,
+        8.8
+      ],
+      "rotation": [
+        -1.5707963267948966,
+        0,
+        0
+      ],
+      "options": {}
+    },
+    {
+      "type": "ArmActuator",
+      "position": [
+        0,
+        0.5,
+        -16
+      ],
+      "rotation": [
+        1.5707963267948966,
+        0,
+        0
+      ],
+      "components": [
+        {
+          "type": "Box",
+          "position": [
+            0,
+            1.1,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 1,
+            "width": 18.8,
+            "depth": 4.1,
+            "color": "555555"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            0,
+            4,
+            2.5
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 6,
+            "width": 18.8,
+            "depth": 1,
+            "color": "555555"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            -5.4,
+            7.2,
+            0.8
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 1,
+            "width": 8,
+            "depth": 4,
+            "color": "555555"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            5.4,
+            7.2,
+            0.8
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 0.8,
+            "width": 8,
+            "depth": 4,
+            "color": "555555"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            0,
+            7.7,
+            2
+          ],
+          "rotation": [
+            -1.3089969389957472,
+            0,
+            0
+          ],
+          "options": {
+            "height": 0.5,
+            "width": 3,
+            "depth": 2,
+            "color": "555555"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            -8.9,
+            4,
+            1.2
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 6,
+            "width": 1,
+            "depth": 3,
+            "color": "555555"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            8.9,
+            4,
+            1.2
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 6,
+            "width": 1,
+            "depth": 3,
+            "color": "555555"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            0,
+            5.8,
+            2.03
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "options": {
+            "height": 2,
+            "width": 3,
+            "depth": 1,
+            "color": "555555"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            1,
+            4.2,
+            1.5
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.5235987755982988
+          ],
+          "options": {
+            "height": 0.3,
+            "width": 2,
+            "depth": 1,
+            "color": "555555"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            -1,
+            4.2,
+            1.5
+          ],
+          "rotation": [
+            0,
+            0,
+            0.5235987755982988
+          ],
+          "options": {
+            "height": 0.3,
+            "width": 2,
+            "depth": 1,
+            "color": "555555"
+          }
+        },
+        {
+          "type": "Box",
+          "position": [
+            0,
+            2,
+            -3
+          ],
+          "rotation": [
+            0.6108652381980153,
+            0,
+            0
+          ],
+          "options": {
+            "height": 0.5,
+            "width": 18,
+            "depth": 3,
+            "color": "555555"
+          }
+        }
+      ],
+      "options": {
+        "armColor": "00ff00",
+        "armLength": 4,
+        "minAngle": -240,
+        "maxAngle": 240
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        0,
+        -2.6,
+        -6
+      ],
+      "rotation": [
+        0.30543261909900765,
+        0,
+        0
+      ],
+      "options": {
+        "height": 0.5,
+        "width": 10,
+        "depth": 4,
+        "color": "111111"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        -11.5,
+        -2.5,
+        7
+      ],
+      "rotation": [
+        0,
+        -0.5235987755982988,
+        0
+      ],
+      "options": {
+        "height": 2,
+        "width": 0.8,
+        "depth": 6.4,
+        "color": "00ff00"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        11.5,
+        -2.5,
+        7
+      ],
+      "rotation": [
+        0,
+        0.5235987755982988,
+        0
+      ],
+      "options": {
+        "height": 2,
+        "width": 0.8,
+        "depth": 6.4,
+        "color": "00ff00"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        13.2,
+        -2.5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "options": {
+        "height": 2,
+        "width": 0.8,
+        "depth": 20,
+        "color": "00ff00"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        -13.2,
+        -2.5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "options": {
+        "height": 2,
+        "width": 0.8,
+        "depth": 20,
+        "color": "00ff00"
+      }
+    },
+    {
+      "type": "LaserRangeSensor",
+      "position": [
+        0,
+        2.3,
+        3
+      ],
+      "rotation": [
+        -1.5707963267948966,
+        0,
+        0
+      ],
+      "options": {}
+    },
+    {
+      "type": "Box",
+      "position": [
+        0,
+        -0.2,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "options": {
+        "height": 2.4,
+        "width": 20,
+        "depth": 1,
+        "color": "111111"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        -11.1,
+        -2.5,
+        -13.8
+      ],
+      "rotation": [
+        0,
+        -0.4886921905584123,
+        0
+      ],
+      "options": {
+        "height": 2,
+        "width": 0.8,
+        "depth": 9,
+        "color": "00ff00"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        11.1,
+        -2.5,
+        -13.8
+      ],
+      "rotation": [
+        0,
+        0.4886921905584123,
+        0
+      ],
+      "options": {
+        "height": 2,
+        "width": 0.8,
+        "depth": 9,
+        "color": "00ff00"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        5.1,
+        -2.4,
+        -17
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "options": {
+        "height": 2,
+        "width": 8.5,
+        "depth": 2,
+        "color": "111111"
+      }
+    },
+    {
+      "type": "Box",
+      "position": [
+        -5.1,
+        -2.4,
+        -17
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "options": {
+        "height": 2,
+        "width": 8.5,
+        "depth": 2,
+        "color": "111111"
+      }
+    },
+    {
+      "type": "LaserRangeSensor",
+      "position": [
+        0,
+        -2,
+        -16.7
+      ],
+      "rotation": [
+        1.5707963267948966,
+        0,
+        0
+      ],
+      "options": {}
+    },
+    {
+      "type": "Box",
+      "position": [
+        0,
+        -3.56,
+        2.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "options": {
+        "height": 0.05,
+        "width": 20,
+        "depth": 2,
+        "color": "111111"
+      }
+    }
+  ],
+  "options": {},
+  "casterDiameter": 1.2,
+  "casterOffsetZ": -14
+}

@@ -1,0 +1,2404 @@
+{
+  "worldName": "custom",
+  "options": {
+    "imageURL": "https://quirkycort.github.io/gears-contributions/worlds/custom-world/Demo/modelsDemo.png",
+    "groundType": "box",
+    "length": 100,
+    "width": 100,
+    "uScale": 1,
+    "vScale": 1,
+    "imageScale": 10,
+    "timer": "none",
+    "timerDuration": 60,
+    "timerEnd": "continue",
+    "wall": false,
+    "wallHeight": 7.7,
+    "wallThickness": 4.5,
+    "wallColor": "#1A1A1A",
+    "groundFriction": 1,
+    "wallFriction": 0.1,
+    "groundRestitution": 0,
+    "wallRestitution": 0.1,
+    "objects": [
+      {
+        "type": "box",
+        "modelURL": "",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "position": [
+          0,
+          -400,
+          -40.5
+        ],
+        "size": [
+          800,
+          128,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "top",
+        "imageURL": "https://quirkycort.github.io/gears-contributions/worlds/custom-world/Demo/seabed.png",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "box",
+        "modelURL": "",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "position": [
+          0,
+          -400,
+          -18
+        ],
+        "size": [
+          800,
+          128,
+          36
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#475dff70",
+        "imageType": "repeat",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "false",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Quaternius - Animals/Fish.glb",
+        "modelScale": 5,
+        "modelAnimation": "ArmatureAction",
+        "position": [
+          331.0746592084648,
+          -405.5756435414921,
+          -6.000000000000018
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          -35,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Quaternius - Ships/Sail ship.glb",
+        "modelScale": 20,
+        "modelAnimation": "None",
+        "position": [
+          17.67612749653842,
+          -426.769978004863,
+          29.00000000000001
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          -90,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Quaternius - Animals/Whale.glb",
+        "modelScale": 10,
+        "modelAnimation": "ArmatureAction",
+        "position": [
+          -302.3850958701781,
+          -400,
+          -10
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          -15,
+          15,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - City Urban/house_type03.glb",
+        "modelScale": 50,
+        "modelAnimation": "None",
+        "position": [
+          341.46151469523653,
+          -222.4875219719473,
+          28.437501907348626
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - City Urban/house_type19.glb",
+        "modelScale": 50,
+        "modelAnimation": "None",
+        "position": [
+          227.54074085075408,
+          -221.02876023789344,
+          21.24999999999999
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Fantasy Town/stallGreen.glb",
+        "modelScale": 20,
+        "modelAnimation": "None",
+        "position": [
+          368.8246768898591,
+          -76.43480945095118,
+          12.369829177856445
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - City Urban/fence_large.glb",
+        "modelScale": 50,
+        "modelAnimation": "None",
+        "position": [
+          349.60182961078016,
+          -172.41174819746647,
+          6.625000476837149
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          180,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Creazilla.com - Town/Cemetery.glb",
+        "modelScale": 20,
+        "modelAnimation": "None",
+        "position": [
+          -262.4909759549518,
+          245.6138295382705,
+          31.030735827470863
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          90,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Quaternius - Farm Animals/Cow.glb",
+        "modelScale": 2,
+        "modelAnimation": "Armature|Idle",
+        "position": [
+          350.6964355528928,
+          -168.58502714281062,
+          5.147845745086679
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          -55,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/KayKit - Mini-Game Variety/rocksB_forest.gltf.glb",
+        "modelScale": 25,
+        "modelAnimation": "None",
+        "position": [
+          -367.1357641034419,
+          -229.08643027502137,
+          6.25
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          90,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "moveable",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Furnitures/bench.glb",
+        "modelScale": 20,
+        "modelAnimation": "None",
+        "position": [
+          317.59573341489323,
+          -320.3140942005861,
+          4.699999988079071
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          180,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "moveable",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Furnitures/tableRound.glb",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "position": [
+          306.7937056955238,
+          -319.30680585370993,
+          3.525000095367411
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          180,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "moveable",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Furnitures/pottedPlant.glb",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "position": [
+          327.6074294613328,
+          -320.07053359645425,
+          3.5250000953674316
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          180,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "moveable",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Characters/farmerA.glb",
+        "modelScale": 5,
+        "modelAnimation": "CrouchIdle",
+        "position": [
+          -294.98519436589316,
+          -331.7088491955803,
+          9.423087120056149
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          180,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "moveable",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Characters/survivorFemaleA_large.glb",
+        "modelScale": 5,
+        "modelAnimation": "Wave",
+        "position": [
+          104.85187096025979,
+          -321.1510660759384,
+          7.686433717608452
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          -155,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "moveable",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - City Urban/house_type17.glb",
+        "modelScale": 50,
+        "modelAnimation": "None",
+        "position": [
+          136.5627987804726,
+          -221.16932902591338,
+          28.437501907348622
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/KayKit - Dungeon/character_barbarian.gltf",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "position": [
+          -124.15208340363553,
+          -238.63055743998453,
+          10.243494033813477
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          180,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "moveable",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Holiday/treeDecorated.glb",
+        "modelScale": 50,
+        "modelAnimation": "None",
+        "position": [
+          -315.4501750426635,
+          -224.8370565678003,
+          43.96775054931639
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Nature/tree_blocks.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          -193.23758796476253,
+          -207.92223541441956,
+          23.700000762939464
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Nature/tree_cone.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          -187.85172351738186,
+          -154.07541199651521,
+          28.606655597686768
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Nature/tree_default.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          -202.83412558711632,
+          -102.349991812819,
+          34.157748222351074
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Nature/tree_detailed.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          -119.92689325231666,
+          -122.16758767647579,
+          26.64834022521971
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Fantasy Town/tree.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          -386.8034415599794,
+          64.78289876740602,
+          48.25521469116211
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/KayKit - Mini-Game Variety/tree_forest.gltf.glb",
+        "modelScale": 20,
+        "modelAnimation": "None",
+        "position": [
+          4.635336263844079,
+          -128.16798876274146,
+          30.005134582519524
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Nature/tree_palmBend.glb",
+        "modelScale": 20,
+        "modelAnimation": "None",
+        "position": [
+          259.2026187147527,
+          -154.50975166829483,
+          13.79910659790039
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Riley - Ice Age Animals/Mammoth.glb",
+        "modelScale": 15,
+        "modelAnimation": "metarig|HeadShake",
+        "position": [
+          -341.86089246190113,
+          -134.28282729019196,
+          32.93800735473634
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          90,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Creazilla.com - Town/Carousel.glb",
+        "modelScale": 15,
+        "modelAnimation": "None",
+        "position": [
+          -329.1008482394312,
+          -36.94564296538149,
+          14.379096031188976
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          90,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Creazilla.com - Town/Museum.glb",
+        "modelScale": 15,
+        "modelAnimation": "None",
+        "position": [
+          4.870293823042289,
+          -221.22529711828952,
+          47.851341247558594
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          90,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Creazilla.com - Town/Golf Club.glb",
+        "modelScale": 15,
+        "modelAnimation": "None",
+        "position": [
+          184.27855487573632,
+          -72.20181056011653,
+          45.02040481567381
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          -90,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Creazilla.com - Town/Apartment.glb",
+        "modelScale": 15,
+        "modelAnimation": "None",
+        "position": [
+          80.8111845278709,
+          -65.93636859943345,
+          24.00386619567869
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          -90,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/KayKit - Mini-Game Variety/flag_teamBlue.gltf.glb",
+        "modelScale": 15,
+        "modelAnimation": "None",
+        "position": [
+          -228.115511303744,
+          -236.31696596907952,
+          14.996443748474153
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          90,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "moveable",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - City Urban/house_type13.glb",
+        "modelScale": 50,
+        "modelAnimation": "None",
+        "position": [
+          -37.913876767823076,
+          -59.14495210773132,
+          28.437501907348643
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Fantasy Town/stallBench.glb",
+        "modelScale": 20,
+        "modelAnimation": "None",
+        "position": [
+          337.3903241359533,
+          -71.36114261390937,
+          12.369829177856445
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Fantasy Town/stallRed.glb",
+        "modelScale": 20,
+        "modelAnimation": "None",
+        "position": [
+          300.72145356902985,
+          -58.08790692668205,
+          12.369829177856463
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Fantasy Town/tree.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          -114.66235913261025,
+          -185.84697445140918,
+          48.25521469116211
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Fantasy Town/tree.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          -128.12919210951708,
+          76.74084629661924,
+          48.25521469116213
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Graveyard/ghost.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          -361.9483752535076,
+          257.7156111182242,
+          15
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          -40,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "false",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Fantasy Town/tree.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          -84.46601629580941,
+          157.8418608828345,
+          48.25521469116213
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Fantasy Town/tree.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          -214.20880656694007,
+          88.24450258081065,
+          48.25521469116213
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Fantasy Town/tree.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          -297.58965182540624,
+          103.95022946837055,
+          48.25521469116211
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Fantasy Town/tree.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          -73.51023620265568,
+          64.30273927471266,
+          48.25521469116211
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Fantasy Town/tree.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          13.178929736950636,
+          121.7005814098497,
+          48.25521469116211
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Fantasy Town/tree.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          63.922054584242495,
+          64.37942073760277,
+          48.25521469116211
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Fantasy Town/tree.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          128.7622004639278,
+          127.03881433306897,
+          48.25521469116211
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Fantasy Town/tree.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          157.13757548953183,
+          55.89980596408016,
+          48.25521469116207
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Fantasy Town/tree.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          59.904813292090864,
+          195.65834371197695,
+          48.25521469116211
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Fantasy Town/tree.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          168.7603341497549,
+          216.13127458512176,
+          48.25521469116209
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Fantasy Town/tree.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          283.16983978425617,
+          73.50852811676144,
+          48.255214691162095
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Fantasy Town/tree.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          279.1536802093282,
+          163.12507605838954,
+          48.255214691162095
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Fantasy Town/tree.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          360.0328127205842,
+          122.52664720129252,
+          48.255214691162095
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Fantasy Town/tree.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          361.59711163641515,
+          211.8328474427341,
+          48.255214691162095
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Graveyard/debrisWood.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          -133.0474912637859,
+          208.6389176479605,
+          1.5744000673294067
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Graveyard/fenceDamaged.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          -165.68953861500208,
+          300.5336127084959,
+          11.799999475479126
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Nature/flower_redC.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          75.6417631150214,
+          318.50238363254226,
+          8.541495323181142
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Graveyard/gravestoneBroken.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          -79.82235661692567,
+          299.3585767956181,
+          7.161619663238525
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Nature/crop_pumpkin.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          -19.072526347775664,
+          299.6512911555207,
+          6.676599979400635
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Nature/crops_leafsStageA.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          45.826824844450925,
+          305.62266196355114,
+          8.541495203971863
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Nature/crops_leafsStageA.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          78.49994275074363,
+          296.4458410239542,
+          8.541495323181163
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Nature/crops_leafsStageA.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          355.61387838869143,
+          293.1847635215567,
+          8.541495323181152
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Nature/crops_leafsStageA.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          119.97936432502111,
+          311.37627098860503,
+          8.541495323181152
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Nature/flower_redC.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          149.5896708595353,
+          297.8158555681205,
+          8.541495323181152
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Nature/crops_leafsStageA.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          190.31362618506554,
+          314.7887828516479,
+          8.541495323181152
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Nature/crops_leafsStageA.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          341.3320612642375,
+          -118.66554394654726,
+          8.541495323181142
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Nature/crops_leafsStageA.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          282.4244111804803,
+          315.82906329106754,
+          8.541495323181152
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Nature/crops_leafsStageA.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          314.178964618873,
+          286.3493592855713,
+          8.541495323181152
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Nature/tree_palmBend.glb",
+        "modelScale": 20,
+        "modelAnimation": "None",
+        "position": [
+          85.22131124680692,
+          -138.87869770222736,
+          13.799107074737549
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Nature/tree_palmBend.glb",
+        "modelScale": 20,
+        "modelAnimation": "None",
+        "position": [
+          148.02630490612916,
+          -153.2099465707429,
+          13.79910659790038
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Nature/tree_palmBend.glb",
+        "modelScale": 20,
+        "modelAnimation": "None",
+        "position": [
+          204.90810895379784,
+          -146.2028303596251,
+          13.79910659790039
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Nature/crops_leafsStageA.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          247.47740381598405,
+          282.61027988711834,
+          8.541495323181163
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Nature/crops_leafsStageA.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          254.5974345315695,
+          -95.1131243743472,
+          8.541495323181143
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Nature/crops_leafsStageA.glb",
+        "modelScale": 40,
+        "modelAnimation": "None",
+        "position": [
+          295.20864110280195,
+          -108.66272474300696,
+          8.541495323181152
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      },
+      {
+        "type": "model",
+        "modelURL": "models/Kenny.nl - Characters/zombieA.glb",
+        "modelScale": 5,
+        "modelAnimation": "Wave",
+        "position": [
+          252.8757007976481,
+          -281.5333836609658,
+          9.423086792230606
+        ],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          90,
+          0
+        ],
+        "color": "#80E680",
+        "imageType": "sphere",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "moveable",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "isPickable": true
+      }
+    ],
+    "startPos": "center",
+    "startPosXYZStr": "",
+    "startRotStr": "",
+    "startPosXYZ": [
+      380,
+      -280,
+      0
+    ],
+    "startRot": -90,
+    "arenaStartPosXYZ": null,
+    "arenaStartRot": null
+  }
+}

@@ -57,7 +57,7 @@
             "laserDetection": null,
             "ultrasonicDetection": null,
             "receiveShadows": false,
-            "castShadows": false,
+            "castShadows": true,
             "isPickable": true
           },
           {
@@ -93,7 +93,7 @@
             "laserDetection": null,
             "ultrasonicDetection": null,
             "receiveShadows": false,
-            "castShadows": false,
+            "castShadows": true,
             "isPickable": true
           },
           {
@@ -129,7 +129,7 @@
             "laserDetection": null,
             "ultrasonicDetection": null,
             "receiveShadows": false,
-            "castShadows": false,
+            "castShadows": true,
             "isPickable": true
           }
         ],
@@ -199,8 +199,8 @@
         "magnetic": false,
         "laserDetection": null,
         "ultrasonicDetection": null,
-        "receiveShadows": false,
-        "castShadows": false,
+        "receiveShadows": true,
+        "castShadows": true,
         "isPickable": true
       }
     ],

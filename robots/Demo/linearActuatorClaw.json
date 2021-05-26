@@ -1,0 +1,212 @@
+{
+  "name": "singleFollower (Custom)",
+  "shortDescription": "singleFollower (Custom)",
+  "longDescription": "<p>Custom robot created in the configurator.</p>",
+  "longerDescription": "<h3>#robot-dimensions#</h3><ul><li>#robot-wheelDiameter#: 5.6 cm</li><li>#robot-wheelSpacing#: 15.2 cm</li></ul><h3>#robot-actuators#</h3><ul><li>#robot-port# A : #robot-leftWheel#</li><li>#robot-port# B : #robot-rightWheel#</li><li>#robot-port# C : #robot-linear#</li><li>#robot-port# D : #robot-linear#</li><li>#robot-port# E : #robot-linear#</li></ul><h3>#robot-sensors#</h3><ul></ul>",
+  "thumbnail": "",
+  "bodyHeight": 4,
+  "bodyWidth": 14,
+  "bodyLength": 16,
+  "wheelDiameter": 5.6,
+  "wheelWidth": 0.8,
+  "wheelToBodyOffset": 0.2,
+  "bodyEdgeToWheelCenterY": 1,
+  "bodyEdgeToWheelCenterZ": 2,
+  "bodyMass": 1000,
+  "wheelMass": 200,
+  "casterMass": 0,
+  "wheelFriction": 10,
+  "bodyFriction": 0,
+  "casterFriction": 0,
+  "color": "#F09C0D",
+  "imageType": "all",
+  "imageURL": "",
+  "components": [
+    {
+      "type": "LinearActuator",
+      "position": [
+        0,
+        6,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        1.5707963267948966
+      ],
+      "components": [
+        {
+          "type": "LinearActuator",
+          "position": [
+            0,
+            4,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -1.5707963267948966
+          ],
+          "components": [
+            {
+              "type": "Box",
+              "position": [
+                1,
+                0,
+                6
+              ],
+              "rotation": [
+                0,
+                0.5235987755982988,
+                0
+              ],
+              "options": {
+                "height": 1,
+                "width": 1,
+                "depth": 4,
+                "color": "A3CF0D",
+                "imageType": "repeat",
+                "imageURL": "",
+                "uScale": 1,
+                "vScale": 1
+              }
+            },
+            {
+              "type": "Box",
+              "position": [
+                1,
+                0,
+                2
+              ],
+              "rotation": [
+                0,
+                -0.6108652381980153,
+                0
+              ],
+              "options": {
+                "height": 1,
+                "width": 1,
+                "depth": 4,
+                "color": "A3CF0D",
+                "imageType": "repeat",
+                "imageURL": "",
+                "uScale": 1,
+                "vScale": 1
+              }
+            }
+          ],
+          "options": {
+            "mass": 10,
+            "restitution": 0.1,
+            "friction": 1,
+            "degreesPerCm": 360,
+            "width": 2,
+            "baseLength": 5,
+            "baseThickness": 1,
+            "platformLength": 2,
+            "platformThickness": 1,
+            "platformColor": "808080",
+            "max": 10,
+            "min": -10,
+            "startPos": 0,
+            "baseColor": "A39C0D"
+          }
+        },
+        {
+          "type": "LinearActuator",
+          "position": [
+            0,
+            -4,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            1.5707963267948966
+          ],
+          "components": [
+            {
+              "type": "Box",
+              "position": [
+                1,
+                0,
+                6
+              ],
+              "rotation": [
+                0,
+                0.5235987755982988,
+                0
+              ],
+              "options": {
+                "height": 1,
+                "width": 1,
+                "depth": 4,
+                "color": "A3CF0D",
+                "imageType": "repeat",
+                "imageURL": "",
+                "uScale": 1,
+                "vScale": 1
+              }
+            },
+            {
+              "type": "Box",
+              "position": [
+                1,
+                0,
+                2
+              ],
+              "rotation": [
+                0,
+                -0.6108652381980153,
+                0
+              ],
+              "options": {
+                "height": 1,
+                "width": 1,
+                "depth": 4,
+                "color": "A3CF0D",
+                "imageType": "repeat",
+                "imageURL": "",
+                "uScale": 1,
+                "vScale": 1
+              }
+            }
+          ],
+          "options": {
+            "mass": 10,
+            "restitution": 0.1,
+            "friction": 1,
+            "degreesPerCm": 360,
+            "width": 2,
+            "baseLength": 5,
+            "baseThickness": 1,
+            "platformLength": 2,
+            "platformThickness": 1,
+            "platformColor": "808080",
+            "max": 10,
+            "min": -10,
+            "startPos": 0,
+            "baseColor": "A39C0D"
+          }
+        }
+      ],
+      "options": {
+        "mass": 100,
+        "restitution": 0.1,
+        "friction": 1,
+        "degreesPerCm": 360,
+        "width": 2,
+        "baseLength": 18,
+        "baseThickness": 1,
+        "platformLength": 2,
+        "platformThickness": 1,
+        "platformColor": "808080",
+        "max": 9,
+        "min": -9,
+        "startPos": -7,
+        "baseColor": "A39C0D"
+      }
+    }
+  ],
+  "options": {}
+}

@@ -3008,7 +3008,7 @@
             "modelAnimation": "None",
             "color": "#80E680",
             "imageType": "cylinder",
-            "imageURL": "",
+            "imageURL": "textures/cylinder/wheel.png",
             "uScale": 1,
             "vScale": 1,
             "physicsOptions": "fixed",
@@ -3806,6 +3806,42 @@
         "modelScale": 10,
         "modelAnimation": "None",
         "color": "#b3fb09ff",
+        "imageType": "repeat",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      },
+      {
+        "type": "box",
+        "position": [
+          105.98914994065069,
+          -47.67163031094989,
+          3.4999999999999987
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          7,
+          2,
+          7
+        ],
+        "modelURL": "",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "color": "#dbdbdbff",
         "imageType": "repeat",
         "imageURL": "",
         "uScale": 1,

@@ -2082,7 +2082,7 @@
         "animationMode": "none",
         "animationKeys": [],
         "size": [
-          9,
+          8.8,
           1,
           10
         ],
@@ -2106,8 +2106,8 @@
         "type": "box",
         "position": [
           -25.60014990755847,
-          61.2,
-          12.1
+          61.4,
+          12.3
         ],
         "rotationMode": "degrees",
         "rotation": [
@@ -2120,7 +2120,7 @@
         "size": [
           1,
           14,
-          1
+          0.5
         ],
         "modelURL": "",
         "modelScale": 10,
@@ -2286,8 +2286,8 @@
         "type": "box",
         "position": [
           -33.60014990755847,
-          61.2,
-          12.1
+          61.4,
+          12.3
         ],
         "rotationMode": "degrees",
         "rotation": [
@@ -2300,7 +2300,7 @@
         "size": [
           1,
           14,
-          1
+          0.5
         ],
         "modelURL": "",
         "modelScale": 10,
@@ -2322,8 +2322,8 @@
         "type": "box",
         "position": [
           -29.60014990755847,
-          61.2,
-          12.1
+          61.4,
+          12.3
         ],
         "rotationMode": "degrees",
         "rotation": [
@@ -2336,7 +2336,7 @@
         "size": [
           1,
           14,
-          1
+          0.5
         ],
         "modelURL": "",
         "modelScale": 10,

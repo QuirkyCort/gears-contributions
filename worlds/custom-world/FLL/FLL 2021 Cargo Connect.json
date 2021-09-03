@@ -11,7 +11,7 @@
     "timer": "none",
     "timerDuration": 60,
     "timerEnd": "continue",
-    "wall": true,
+    "wall": false,
     "wallHeight": 7.7,
     "wallThickness": 4.5,
     "wallColor": "#1A1A1A",
@@ -7036,7 +7036,7 @@
                     "type": "box",
                     "position": [
                       2.4,
-                      -8,
+                      -6.4,
                       0.4
                     ],
                     "rotationMode": "degrees",
@@ -7049,18 +7049,21 @@
                     "animationKeys": [],
                     "size": [
                       0.8,
-                      4,
+                      0.8,
                       10.3
                     ],
                     "modelURL": "",
                     "modelScale": 10,
                     "modelAnimation": "None",
-                    "color": "#fed900ff",
+                    "color": "#717171ff",
                     "imageType": "repeat",
                     "imageURL": "",
                     "uScale": 1,
                     "vScale": 1,
-                    "physicsOptions": "moveable",
+                    "physicsOptions": {
+                      "mass": 100,
+                      "friction": 0.8
+                    },
                     "magnetic": false,
                     "laserDetection": null,
                     "ultrasonicDetection": null,
@@ -7072,7 +7075,7 @@
                     "type": "box",
                     "position": [
                       -0.8,
-                      1.6,
+                      0,
                       4.8
                     ],
                     "rotationMode": "degrees",
@@ -7108,7 +7111,7 @@
                     "type": "box",
                     "position": [
                       -0.8,
-                      1.6,
+                      0,
                       -4.8
                     ],
                     "rotationMode": "degrees",
@@ -7144,7 +7147,7 @@
                     "type": "box",
                     "position": [
                       -2.4,
-                      0.4,
+                      -1.2,
                       4.8
                     ],
                     "rotationMode": "degrees",
@@ -7180,7 +7183,7 @@
                     "type": "box",
                     "position": [
                       -2.4,
-                      0.4,
+                      -1.2,
                       -4.8
                     ],
                     "rotationMode": "degrees",
@@ -7216,7 +7219,7 @@
                     "type": "box",
                     "position": [
                       -2.4,
-                      3.8,
+                      2.2,
                       5.6
                     ],
                     "rotationMode": "degrees",
@@ -7252,7 +7255,7 @@
                     "type": "box",
                     "position": [
                       -2.4,
-                      3.8,
+                      2.2,
                       -5.6
                     ],
                     "rotationMode": "degrees",
@@ -7288,7 +7291,7 @@
                     "type": "box",
                     "position": [
                       -2.4,
-                      0,
+                      -1.6,
                       0
                     ],
                     "rotationMode": "degrees",
@@ -7324,7 +7327,7 @@
                     "type": "box",
                     "position": [
                       0.8,
-                      0.8,
+                      -0.8,
                       4.8
                     ],
                     "rotationMode": "degrees",
@@ -7360,7 +7363,7 @@
                     "type": "box",
                     "position": [
                       0.8,
-                      0.8,
+                      -0.8,
                       -4.8
                     ],
                     "rotationMode": "degrees",
@@ -7385,6 +7388,42 @@
                     "uScale": 1,
                     "vScale": 1,
                     "physicsOptions": "fixed",
+                    "magnetic": false,
+                    "laserDetection": null,
+                    "ultrasonicDetection": null,
+                    "receiveShadows": false,
+                    "castShadows": false,
+                    "isPickable": true
+                  },
+                  {
+                    "type": "box",
+                    "position": [
+                      -1,
+                      -0.2,
+                      0
+                    ],
+                    "rotationMode": "degrees",
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "animationMode": "none",
+                    "animationKeys": [],
+                    "size": [
+                      0.8,
+                      0.8,
+                      10.3
+                    ],
+                    "modelURL": "",
+                    "modelScale": 10,
+                    "modelAnimation": "None",
+                    "color": "#717171ff",
+                    "imageType": "repeat",
+                    "imageURL": "",
+                    "uScale": 1,
+                    "vScale": 1,
+                    "physicsOptions": "moveable",
                     "magnetic": false,
                     "laserDetection": null,
                     "ultrasonicDetection": null,
@@ -7635,6 +7674,45 @@
         "uScale": 1,
         "vScale": 1,
         "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      },
+      {
+        "type": "box",
+        "position": [
+          -18,
+          47.2,
+          9.2
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          0.8,
+          10.3,
+          4
+        ],
+        "modelURL": "",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "color": "#fed900ff",
+        "imageType": "repeat",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": {
+          "mass": 30,
+          "friction": 0.8
+        },
         "magnetic": false,
         "laserDetection": null,
         "ultrasonicDetection": null,

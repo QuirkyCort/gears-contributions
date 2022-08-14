@@ -59,7 +59,7 @@ randchoice can also work with arrays...
 
 The position of this object will be set to either [0,0,0], [10,10,10], or [20,20,20].
 
-## randchoice[X](choice1, choice2, choice3)
+## randchoice[X](choice1, choice2, choice3, ...)
 
 ...where [X] may be "A", "B", "C", "D", or "E" (ie. randchoiceA, randchoiceB, randchoiceC, ...).
 
@@ -89,6 +89,42 @@ This is useful to swap position of two blocks, while ensuring that they don't ov
 
 This places box 1 at either [0,0,0] or [10,0,0], and ensures that box 2 will always appear at the other position.
 If a normal randchoice was used, there is a risk that both boxes may appear at the same spot.
+
+See randomizationDemo2.json
+
+## shuffle[X](choice1, choice2, choice3, ...)
+
+...where [X] may be "A", "B", "C", "D", or "E" (ie. shuffleA, shuffleB, shuffleC, ...).
+
+This randomly select one of the options, but will not select an option that was already selected in a previous occurance.
+
+### Example:
+
+```
+// Box 1
+"position": ["shuffleA(0, 1, 2, 3)", 0, 0]
+.
+.
+.
+// Box 2
+"position": ["shuffleA(0, 1, 2, 3)", 0, 0]
+.
+.
+.
+// Box 2
+"position": ["shuffleA(0, 1, 2, 3)", 0, 0]
+```
+
+This places box 1 at either x = 0, 1, 2, or 3.
+For illustration purposes, let's imagine that x = 2 (...third option) was selected.
+Now box 2 can only appear at 0, 1, or 3; the third option will not be selected.
+Let's imagine that x = 1 was selected for box 2.
+Now box 3 can only appear at 0 or 3.
+
+**IMPORTANT** You must ensure that there are enough options for selection.
+(eg. If there are 3 occurences of shuffleA, then shuffleA must have at least 3 options).
+
+See randomizationDemo3.json
 
 ## Nesting
 

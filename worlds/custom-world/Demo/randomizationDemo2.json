@@ -1,0 +1,112 @@
+{
+  "worldName": "custom",
+  "options": {
+    "imageURL": "textures/maps/custom.png",
+    "groundType": "box",
+    "length": 100,
+    "width": 100,
+    "uScale": 1,
+    "vScale": 1,
+    "imageScale": 1,
+    "timer": "none",
+    "timerDuration": 60,
+    "timerEnd": "continue",
+    "wall": true,
+    "wallHeight": 7.7,
+    "wallThickness": 4.5,
+    "wallColor": "#1A1A1A",
+    "groundFriction": 1,
+    "wallFriction": 0.1,
+    "groundRestitution": 0,
+    "wallRestitution": 0.1,
+    "objects": [
+      {
+        "type": "box",
+        "position": "randchoiceA([20,0,5],[-20,0,5])",
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [0,0,0],
+        "color": "#FF0000",
+        "imageType": "",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null
+      },
+      {
+        "type": "box",
+        "position": "randchoiceA([-20,0,5],[20,0,5])",
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [0,0,0],
+        "color": "#FF00FF",
+        "imageType": "",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null
+      },
+      {
+        "type": "box",
+        "position": "randchoiceB([20,20,5],[-20,20,5])",
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [0,0,0],
+        "color": "#00FF00",
+        "imageType": "",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null
+      },
+      {
+        "type": "box",
+        "position": "randchoiceB([-20,20,5],[20,20,5])",
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "rotationMode": "degrees",
+        "rotation": [0,0,0],
+        "color": "#FFFFFF",
+        "imageType": "",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null
+      }
+    ],
+    "startPos": "center",
+    "startPosXYZStr": "",
+    "startRotStr": "",
+    "startPosXYZ": [0,0],
+    "startRot": null,
+    "arenaStartPosXYZ": null,
+    "arenaStartRot": null
+  }
+}

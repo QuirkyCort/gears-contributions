@@ -19,13 +19,35 @@ The x position of this object will be set to a random value between the range of
 
 This is replaced with one of the randomly selected choice.
 
-## Example:
+### Example:
 
 ```
 "position": ["randchoice(0, 2, 4)", 0, 0]
 ```
 
 The x position of this object will be set to either 0, 2, or 4.
+
+## randchoice(string1, string2, string3, ...)
+
+This works with strings as well.
+Strings do not need to be quoted unless they start with a number.
+
+### Example:
+
+```
+"imageURL": "randchoice(textures/box/cardboard.png, textures/maps/custom.png)"
+```
+
+The strings starts with a letter, "t", so no quoting required.
+
+### Example 2:
+
+```
+"color": "randchoice(#FF0000, #00FF00, '000099')",
+```
+
+The first two colors starts with a "#", so no quoting required.
+The third color starts with a 0, so single quotes are required to ensure it is interpreted as a string and not a number.
 
 ## randchoice(array1, array2, array3, ...)
 
@@ -43,7 +65,7 @@ The position of this object will be set to either [0,0,0], [10,10,10], or [20,20
 
 This works the same as randchoice, but uses the same random number for every occurence of randchoiceX.
 
-## Example:
+### Example:
 
 ```
 "position": ["randchoiceA(0, 1)", "randchoiceA(2, 4)", 0]
@@ -51,6 +73,7 @@ This works the same as randchoice, but uses the same random number for every occ
 
 This will randomly choose 0 or 1 for the x position.
 If 0 was choosen (...the first option), then for the y position, it will also choose the first option (ie. 2).
+Similarly, if 1 (second option) was choosen for x, then 4 (second option) will also be selected for y.
 
 This is useful to swap position of two blocks, while ensuring that they don't overlap.
 

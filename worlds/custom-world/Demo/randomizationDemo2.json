@@ -22,7 +22,7 @@
     "objects": [
       {
         "type": "box",
-        "position": "randchoiceA([20,0,5],[-20,0,5])",
+        "position": "randchoiceA([-20,0,5],[20,0,5])",
         "size": [
           10,
           10,
@@ -42,11 +42,11 @@
       },
       {
         "type": "box",
-        "position": "randchoiceA([-20,0,5],[20,0,5])",
+        "position": "randchoiceA([-20,0,12.5],[20,0,12.5])",
         "size": [
-          10,
-          10,
-          10
+          5,
+          5,
+          5
         ],
         "rotationMode": "degrees",
         "rotation": [0,0,0],
@@ -62,7 +62,7 @@
       },
       {
         "type": "box",
-        "position": "randchoiceB([20,20,5],[-20,20,5])",
+        "position": "randchoiceB([-20,20,5],[20,20,5])",
         "size": [
           10,
           10,
@@ -82,11 +82,11 @@
       },
       {
         "type": "box",
-        "position": "randchoiceB([-20,20,5],[20,20,5])",
+        "position": "randchoiceB([-20,20,12.5],[20,20,12.5])",
         "size": [
-          10,
-          10,
-          10
+          5,
+          5,
+          5
         ],
         "rotationMode": "degrees",
         "rotation": [0,0,0],

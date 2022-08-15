@@ -63,7 +63,7 @@ The position of this object will be set to either [0,0,0], [10,10,10], or [20,20
 
 ...where [X] may be "A", "B", "C", "D", or "E" (ie. randchoiceA, randchoiceB, randchoiceC, ...).
 
-This works the same as randchoice, but uses the same random number for every occurence of randchoiceX.
+This works the same as randchoice, but makes the same random choice for every occurence of randchoiceX.
 
 ### Example:
 
@@ -77,6 +77,8 @@ Similarly, if 1 (second option) was choosen for x, then 4 (second option) will a
 
 This is useful to swap position of two blocks, while ensuring that they don't overlap.
 
+This is useful when you need two or more blocks to appear in corresponding positions (ie. one on top of the other).
+
 ```
 // Box 1
 "position": "randchoiceA([0,0,0], [10,0,0])"
@@ -84,11 +86,10 @@ This is useful to swap position of two blocks, while ensuring that they don't ov
 .
 .
 // Box 2
-"position": "randchoiceA([10,0,0], [0,0,0])"
+"position": "randchoiceA([0,0,10], [10,0,10])"
 ```
 
-This places box 1 at either [0,0,0] or [10,0,0], and ensures that box 2 will always appear at the other position.
-If a normal randchoice was used, there is a risk that both boxes may appear at the same spot.
+This places box 1 at either [0,0,0] or [10,0,0], and ensures that box 2 will always appear on top of box 1.
 
 See randomizationDemo2.json
 

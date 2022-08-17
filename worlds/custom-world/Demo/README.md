@@ -15,6 +15,30 @@ This is replaced with a random float within the specified range.
 
 The x position of this object will be set to a random value between the range of -5 to 5.
 
+## randrange[X](start, end)
+
+...where [X] may be "A", "B", "C", "D", or "E" (ie. randrangeA, randrangeB, randrangeC, ...).
+
+This works the same as randrange, but uses the same random number for every occurance of randrangeX.
+
+### Example:
+
+```
+"position": ["randrangeA(0, 1)", "randrangeA(0, 8)", 0]
+```
+
+The x position of this object will be set to a random value between the range of 0 to 1.
+For illustration purposes, let's imagine that x was set to 0.25 (...about a quarter of the range).
+When selecting the y position, it will also be set to a quarter of the range, which in this case will be 2.
+
+This is useful when you need to maintain a proportional relationship between two values (eg. when you need an object to be positioned randomly along a diagonal line).
+
+### Note:
+
+The random number used by **randrangeX** is the same as that used by **randchoiceX**.
+This means that there will be a proportional relationship between the random values selected by say **randrangeA** and **randchoiceA**.
+If this is not desired, use a different **X** (eg. **randrangeA** and **randchoiceB**).
+
 ## randchoice(choice1, choice2, choice3, ...)
 
 This is replaced with one of the randomly selected choice.

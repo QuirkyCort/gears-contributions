@@ -75,8 +75,6 @@ This will randomly choose 0 or 1 for the x position.
 If 0 was choosen (...the first option), then for the y position, it will also choose the first option (ie. 2).
 Similarly, if 1 (second option) was choosen for x, then 4 (second option) will also be selected for y.
 
-This is useful to swap position of two blocks, while ensuring that they don't overlap.
-
 This is useful when you need two or more blocks to appear in corresponding positions (ie. one on top of the other).
 
 ```

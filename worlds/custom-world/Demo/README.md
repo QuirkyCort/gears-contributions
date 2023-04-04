@@ -134,7 +134,7 @@ This randomly select one of the options, but will not select an option that was 
 .
 .
 .
-// Box 2
+// Box 3
 "position": ["shuffleA(0, 1, 2, 3)", 0, 0]
 ```
 
@@ -148,6 +148,60 @@ Now box 3 can only appear at 0 or 3.
 (eg. If there are 3 occurences of shuffleA, then shuffleA must have at least 3 options).
 
 See randomizationDemo3.json
+
+## shuffle[X][Y](choice1, choice2, choice3, ...)
+
+...where [X] may be "A", "B", "C", "D", or "E" (ie. shuffleA, shuffleB, shuffleC, ...).
+...and [Y] may be a number (eg. 0, 1, 2, 3...)
+
+This selects the using the same index from a previous shuffle.
+This means that if the first "shuffleA" selected the second index (...index 1), then "shuffleA0" will also select index 1.
+
+"shuffleA0" will use the index from the first "shuffleA", "shuffleA1" will use the index from the second "shuffleA", etc.
+
+Note that the index starts from 0 and not 1.
+
+### Example:
+
+```
+// Box 1
+"position": ["shuffleA(0, 1, 2)", 0, 0]
+"rotation": [0, "shuffleA0(0, 45, 90)", 0]
+.
+.
+.
+// Box 2
+"position": ["shuffleA(0, 1, 2)", 0, 0]
+"rotation": [0, "shuffleA1(0, 45, 90)", 0]
+```
+
+This places box 1 at either x = 0, 1, or 2.
+For illustration purposes, let's imagine that x = 2 (...third option) was selected.
+The "shuffleA0" will also select the third option (ie. 90).
+
+Now box 2 can only appear at 0, or 1; the third option will not be selected.
+Let's imagine that x = 1 (second option) was selected for box 2.
+The "shuffleA1" will also select the second option (ie. 45).
+
+**IMPORTANT** You must ensure that the referenced shuffle appears before you reference it.
+
+Something like this is not valid...
+
+```
+// Box 1
+"position": ["shuffleA(0, 1, 2)", 0, 0]
+"rotation": [0, "shuffleA1(0, 45, 90)", 0]
+.
+.
+.
+// Box 2
+"position": ["shuffleA(0, 1, 2)", 0, 0]
+"rotation": [0, "shuffleA0(0, 45, 90)", 0]
+```
+
+...because the "shuffleA1" is referencing the second shuffle, but the second shuffle hasn't appear yet.
+
+See randomizationDemo4.json
 
 ## Nesting
 

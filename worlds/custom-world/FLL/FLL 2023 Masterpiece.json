@@ -7414,17 +7414,2415 @@
         "receiveShadows": false,
         "castShadows": false,
         "isPickable": true
+      },
+      {
+        "type": "compound",
+        "objects": [
+          {
+            "type": "box",
+            "position": [
+              86,
+              42,
+              0.3999999999999986
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              45,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              15.2,
+              2.4,
+              0.8
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#f4f7f8ff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              0,
+              -4.4,
+              0
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              5.6,
+              6.4,
+              0.8
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#f4f7f8ff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              1.6,
+              -3.2,
+              0.8
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              0.8,
+              8.8,
+              0.8
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#f4f7f8ff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              -1.6,
+              -3.2,
+              0.8
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              0.8,
+              8.8,
+              0.8
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#f4f7f8ff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              -10.4,
+              0,
+              1.6
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              5.6,
+              0.8,
+              4
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#f4f7f8ff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              -10.4,
+              0,
+              0
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              2.4,
+              2.4,
+              0.8
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#f4f7f8ff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              -10.4,
+              0,
+              1.2
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              0.8,
+              2.4,
+              1.6
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#f4f7f8ff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "cylinder",
+            "position": [
+              -10.4,
+              0,
+              3.2
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              2.4,
+              2.8,
+              10
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#c0c0c0ff",
+            "imageType": "cylinder",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              10.4,
+              0,
+              1.6
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              5.6,
+              0.8,
+              4
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#f4f7f8ff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              10.4,
+              0,
+              0
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              2.4,
+              2.4,
+              0.8
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#f4f7f8ff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              10.4,
+              0,
+              1.2
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              0.8,
+              2.4,
+              1.6
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#f4f7f8ff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "cylinder",
+            "position": [
+              10.4,
+              0,
+              3.2
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              2.4,
+              2.8,
+              10
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#c0c0c0ff",
+            "imageType": "cylinder",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              0,
+              -7.2,
+              1.6
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              5.6,
+              0.8,
+              0.8
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#f4f7f8ff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              -2.4,
+              -7.2,
+              0.8
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              0.8,
+              0.8,
+              0.8
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#f4f7f8ff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              0,
+              -7.2,
+              0.8
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              0.8,
+              0.8,
+              0.8
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#f4f7f8ff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              -10.4,
+              0,
+              6.4
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              1.6,
+              2.4,
+              4
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#2269c5ff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              10.4,
+              0,
+              6.4
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              1.6,
+              2.4,
+              4
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#2269c5ff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              -7.2,
+              -0.8,
+              4
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              0.8,
+              0.8,
+              7.2
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#2f2f2fff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              -7.2,
+              -0.8,
+              10.4
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              0.8,
+              2.4,
+              5.6
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#2f2f2fff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              -6,
+              -0.8,
+              14
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              -45
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              0.8,
+              2.4,
+              3.2
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#2f2f2fff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              -4,
+              -0.8,
+              15.2
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              2.4,
+              2.4,
+              0.8
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#2f2f2fff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              7.2,
+              -0.8,
+              4
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              0.8,
+              0.8,
+              7.2
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#2f2f2fff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              7.2,
+              -0.8,
+              10.4
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              0.8,
+              2.4,
+              5.6
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#2f2f2fff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              6,
+              -0.8,
+              14
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              45
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              0.8,
+              2.4,
+              3.2
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#2f2f2fff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              4,
+              -0.8,
+              15.2
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              2.4,
+              2.4,
+              0.8
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#2f2f2fff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "hinge",
+            "objects": [
+              {
+                "type": "compound",
+                "objects": [
+                  {
+                    "type": "box",
+                    "position": [
+                      0,
+                      1.2,
+                      -4
+                    ],
+                    "rotationMode": "degrees",
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "animationMode": "none",
+                    "animationKeys": [],
+                    "size": [
+                      0.8,
+                      3.2,
+                      0.8
+                    ],
+                    "modelURL": "",
+                    "modelScale": 10,
+                    "modelAnimation": "None",
+                    "color": "#2f2f2fff",
+                    "imageType": "repeat",
+                    "imageURL": "",
+                    "uScale": 1,
+                    "vScale": 1,
+                    "physicsOptions": "moveable",
+                    "magnetic": false,
+                    "laserDetection": null,
+                    "ultrasonicDetection": null,
+                    "receiveShadows": false,
+                    "castShadows": false,
+                    "isPickable": true
+                  },
+                  {
+                    "type": "box",
+                    "position": [
+                      -0.8,
+                      1.2,
+                      0
+                    ],
+                    "rotationMode": "degrees",
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "animationMode": "none",
+                    "animationKeys": [],
+                    "size": [
+                      0.8,
+                      0.8,
+                      0.8
+                    ],
+                    "modelURL": "",
+                    "modelScale": 10,
+                    "modelAnimation": "None",
+                    "color": "#2f2f2fff",
+                    "imageType": "repeat",
+                    "imageURL": "",
+                    "uScale": 1,
+                    "vScale": 1,
+                    "physicsOptions": "fixed",
+                    "magnetic": false,
+                    "laserDetection": null,
+                    "ultrasonicDetection": null,
+                    "receiveShadows": false,
+                    "castShadows": false,
+                    "isPickable": true
+                  },
+                  {
+                    "type": "box",
+                    "position": [
+                      2,
+                      -1.2,
+                      -0.8
+                    ],
+                    "rotationMode": "degrees",
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "animationMode": "none",
+                    "animationKeys": [],
+                    "size": [
+                      4.8,
+                      0.8,
+                      0.8
+                    ],
+                    "modelURL": "",
+                    "modelScale": 10,
+                    "modelAnimation": "None",
+                    "color": "#f28c2dff",
+                    "imageType": "repeat",
+                    "imageURL": "",
+                    "uScale": 1,
+                    "vScale": 1,
+                    "physicsOptions": "fixed",
+                    "magnetic": false,
+                    "laserDetection": null,
+                    "ultrasonicDetection": null,
+                    "receiveShadows": false,
+                    "castShadows": false,
+                    "isPickable": true
+                  },
+                  {
+                    "type": "box",
+                    "position": [
+                      5.0032797366624715,
+                      -0.09900518071923436,
+                      -0.8
+                    ],
+                    "rotationMode": "degrees",
+                    "rotation": [
+                      0,
+                      -53.1,
+                      0
+                    ],
+                    "animationMode": "none",
+                    "animationKeys": [],
+                    "size": [
+                      3.2,
+                      0.8,
+                      0.8
+                    ],
+                    "modelURL": "",
+                    "modelScale": 10,
+                    "modelAnimation": "None",
+                    "color": "#f28c2dff",
+                    "imageType": "repeat",
+                    "imageURL": "",
+                    "uScale": 1,
+                    "vScale": 1,
+                    "physicsOptions": "fixed",
+                    "magnetic": false,
+                    "laserDetection": null,
+                    "ultrasonicDetection": null,
+                    "receiveShadows": false,
+                    "castShadows": false,
+                    "isPickable": true
+                  },
+                  {
+                    "type": "cylinder",
+                    "position": [
+                      3.2,
+                      -1.2,
+                      -0.4
+                    ],
+                    "rotationMode": "degrees",
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "animationMode": "none",
+                    "animationKeys": [],
+                    "size": [
+                      0.4,
+                      0.8,
+                      10
+                    ],
+                    "modelURL": "",
+                    "modelScale": 10,
+                    "modelAnimation": "None",
+                    "color": "#f4f7f8ff",
+                    "imageType": "cylinder",
+                    "imageURL": "",
+                    "uScale": 1,
+                    "vScale": 1,
+                    "physicsOptions": "fixed",
+                    "magnetic": false,
+                    "laserDetection": null,
+                    "ultrasonicDetection": null,
+                    "receiveShadows": false,
+                    "castShadows": false,
+                    "isPickable": true
+                  },
+                  {
+                    "type": "cylinder",
+                    "position": [
+                      0.4,
+                      -1.2,
+                      9.2
+                    ],
+                    "rotationMode": "degrees",
+                    "rotation": [
+                      0,
+                      0,
+                      90
+                    ],
+                    "animationMode": "none",
+                    "animationKeys": [],
+                    "size": [
+                      0.4,
+                      1.6,
+                      10
+                    ],
+                    "modelURL": "",
+                    "modelScale": 10,
+                    "modelAnimation": "None",
+                    "color": "#cb000084",
+                    "imageType": "cylinder",
+                    "imageURL": "",
+                    "uScale": 1,
+                    "vScale": 1,
+                    "physicsOptions": "fixed",
+                    "magnetic": false,
+                    "laserDetection": null,
+                    "ultrasonicDetection": null,
+                    "receiveShadows": false,
+                    "castShadows": false,
+                    "isPickable": true
+                  },
+                  {
+                    "type": "cylinder",
+                    "position": [
+                      0.4,
+                      -1.2,
+                      5.2
+                    ],
+                    "rotationMode": "degrees",
+                    "rotation": [
+                      0,
+                      0,
+                      90
+                    ],
+                    "animationMode": "none",
+                    "animationKeys": [],
+                    "size": [
+                      0.4,
+                      1.6,
+                      10
+                    ],
+                    "modelURL": "",
+                    "modelScale": 10,
+                    "modelAnimation": "None",
+                    "color": "#3c96c784",
+                    "imageType": "cylinder",
+                    "imageURL": "",
+                    "uScale": 1,
+                    "vScale": 1,
+                    "physicsOptions": "fixed",
+                    "magnetic": false,
+                    "laserDetection": null,
+                    "ultrasonicDetection": null,
+                    "receiveShadows": false,
+                    "castShadows": false,
+                    "isPickable": true
+                  },
+                  {
+                    "type": "cylinder",
+                    "position": [
+                      0.4,
+                      -1.2,
+                      7.2
+                    ],
+                    "rotationMode": "degrees",
+                    "rotation": [
+                      0,
+                      0,
+                      90
+                    ],
+                    "animationMode": "none",
+                    "animationKeys": [],
+                    "size": [
+                      0.4,
+                      1.6,
+                      10
+                    ],
+                    "modelURL": "",
+                    "modelScale": 10,
+                    "modelAnimation": "None",
+                    "color": "#a1438b84",
+                    "imageType": "cylinder",
+                    "imageURL": "",
+                    "uScale": 1,
+                    "vScale": 1,
+                    "physicsOptions": "fixed",
+                    "magnetic": false,
+                    "laserDetection": null,
+                    "ultrasonicDetection": null,
+                    "receiveShadows": false,
+                    "castShadows": false,
+                    "isPickable": true
+                  },
+                  {
+                    "type": "cylinder",
+                    "position": [
+                      0,
+                      -1.2,
+                      5.2
+                    ],
+                    "rotationMode": "degrees",
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "animationMode": "none",
+                    "animationKeys": [],
+                    "size": [
+                      10,
+                      0.8,
+                      10
+                    ],
+                    "modelURL": "",
+                    "modelScale": 10,
+                    "modelAnimation": "None",
+                    "color": "#2f2f2fff",
+                    "imageType": "cylinder",
+                    "imageURL": "",
+                    "uScale": 1,
+                    "vScale": 1,
+                    "physicsOptions": "fixed",
+                    "magnetic": false,
+                    "laserDetection": null,
+                    "ultrasonicDetection": null,
+                    "receiveShadows": false,
+                    "castShadows": false,
+                    "isPickable": true
+                  }
+                ],
+                "position": [
+                  0,
+                  0,
+                  20
+                ],
+                "rotationMode": "degrees",
+                "rotation": [
+                  90,
+                  0,
+                  0
+                ],
+                "animationMode": "none",
+                "animationKeys": [],
+                "size": [
+                  10,
+                  10,
+                  10
+                ],
+                "modelURL": "",
+                "modelScale": 10,
+                "modelAnimation": "None",
+                "color": "#80E680",
+                "imageType": "repeat",
+                "imageURL": "",
+                "uScale": 1,
+                "vScale": 1,
+                "physicsOptions": "fixed",
+                "magnetic": false,
+                "laserDetection": null,
+                "ultrasonicDetection": null,
+                "receiveShadows": false,
+                "castShadows": false,
+                "isPickable": true
+              }
+            ],
+            "position": [
+              3.2,
+              -0.8,
+              15.2
+            ],
+            "size": [
+              12,
+              0.8,
+              0
+            ],
+            "hide": true,
+            "speed": 0,
+            "maxForce": 0,
+            "upperLimit": 0,
+            "lowerLimit": 0,
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              90
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#80E680",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "hinge",
+            "objects": [
+              {
+                "type": "compound",
+                "objects": [
+                  {
+                    "type": "box",
+                    "position": [
+                      2,
+                      0,
+                      -3.2
+                    ],
+                    "rotationMode": "degrees",
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "animationMode": "none",
+                    "animationKeys": [],
+                    "size": [
+                      4.8,
+                      0.8,
+                      0.8
+                    ],
+                    "modelURL": "",
+                    "modelScale": 10,
+                    "modelAnimation": "None",
+                    "color": "#f28c2dff",
+                    "imageType": "repeat",
+                    "imageURL": "",
+                    "uScale": 1,
+                    "vScale": 1,
+                    "physicsOptions": "moveable",
+                    "magnetic": false,
+                    "laserDetection": null,
+                    "ultrasonicDetection": null,
+                    "receiveShadows": false,
+                    "castShadows": false,
+                    "isPickable": true
+                  },
+                  {
+                    "type": "cylinder",
+                    "position": [
+                      -2,
+                      0,
+                      1.2
+                    ],
+                    "rotationMode": "degrees",
+                    "rotation": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "animationMode": "none",
+                    "animationKeys": [],
+                    "size": [
+                      1.6,
+                      0.8,
+                      10
+                    ],
+                    "modelURL": "",
+                    "modelScale": 10,
+                    "modelAnimation": "None",
+                    "color": "#f4f7f8ff",
+                    "imageType": "cylinder",
+                    "imageURL": "",
+                    "uScale": 1,
+                    "vScale": 1,
+                    "physicsOptions": "fixed",
+                    "magnetic": false,
+                    "laserDetection": null,
+                    "ultrasonicDetection": null,
+                    "receiveShadows": false,
+                    "castShadows": false,
+                    "isPickable": true
+                  },
+                  {
+                    "type": "box",
+                    "position": [
+                      2.7237738865323884,
+                      -0.9696835392160648,
+                      0
+                    ],
+                    "rotationMode": "degrees",
+                    "rotation": [
+                      0,
+                      53.1,
+                      0
+                    ],
+                    "animationMode": "none",
+                    "animationKeys": [],
+                    "size": [
+                      3.2,
+                      0.8,
+                      0.8
+                    ],
+                    "modelURL": "",
+                    "modelScale": 10,
+                    "modelAnimation": "None",
+                    "color": "#f28c2dff",
+                    "imageType": "repeat",
+                    "imageURL": "",
+                    "uScale": 1,
+                    "vScale": 1,
+                    "physicsOptions": "fixed",
+                    "magnetic": false,
+                    "laserDetection": null,
+                    "ultrasonicDetection": null,
+                    "receiveShadows": false,
+                    "castShadows": false,
+                    "isPickable": true
+                  }
+                ],
+                "position": [
+                  0,
+                  0,
+                  20
+                ],
+                "rotationMode": "degrees",
+                "rotation": [
+                  90,
+                  0,
+                  0
+                ],
+                "animationMode": "none",
+                "animationKeys": [],
+                "size": [
+                  10,
+                  10,
+                  10
+                ],
+                "modelURL": "",
+                "modelScale": 10,
+                "modelAnimation": "None",
+                "color": "#80E680",
+                "imageType": "repeat",
+                "imageURL": "",
+                "uScale": 1,
+                "vScale": 1,
+                "physicsOptions": "fixed",
+                "magnetic": false,
+                "laserDetection": null,
+                "ultrasonicDetection": null,
+                "receiveShadows": false,
+                "castShadows": false,
+                "isPickable": true
+              }
+            ],
+            "position": [
+              -10.4,
+              0,
+              1.6
+            ],
+            "size": [
+              10,
+              0.8,
+              0
+            ],
+            "hide": true,
+            "speed": 0,
+            "maxForce": 0,
+            "upperLimit": 0,
+            "lowerLimit": 0,
+            "rotationMode": "degrees",
+            "rotation": [
+              90,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#80E680",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              0,
+              -3.2,
+              2.8
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              0.8,
+              8.8,
+              1.6
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#2f2f2fff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              0,
+              0.8,
+              1.6
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              4,
+              0.8,
+              0.8
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#2f2f2fff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              -6.4,
+              0,
+              1.6
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              0.8,
+              2.4,
+              2.4
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#f4f7f8ff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              6.4,
+              0,
+              1.6
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              0.8,
+              2.4,
+              2.4
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#f4f7f8ff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "cylinder",
+            "position": [
+              0,
+              0,
+              1.6
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              90
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              12,
+              0.8,
+              10
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#c0c0c0ff",
+            "imageType": "cylinder",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              2.4,
+              -7.2,
+              0.8
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              0.8,
+              0.8,
+              0.8
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#f4f7f8ff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              0,
+              -3.2,
+              4.4
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              8,
+              8,
+              0.8
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#f4f7f8ff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "cylinder",
+            "position": [
+              0,
+              -3.2,
+              4.8
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              0.8,
+              4.8,
+              10
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#3c96c7ff",
+            "imageType": "cylinder",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              0,
+              0,
+              5.6
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              1.6,
+              1.6,
+              1.6
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#2269c5ff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              0,
+              -6,
+              7.2
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              4.8,
+              0.8,
+              4.8
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#ffffff84",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              0,
+              -4.4,
+              7.2
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              1.6,
+              0.8,
+              4
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#FE56D5",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              -4.4,
+              -1.2,
+              10
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              3.2,
+              0.8,
+              3.2
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#2269c5ff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "cylinder",
+            "position": [
+              -4,
+              -0.8,
+              12
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              90
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              5.6,
+              0.8,
+              10
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#2f2f2fff",
+            "imageType": "cylinder",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              4.4,
+              -1.2,
+              10
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              3.2,
+              0.8,
+              3.2
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#2269c5ff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "cylinder",
+            "position": [
+              4,
+              -0.8,
+              12
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              90
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              5.6,
+              0.8,
+              10
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#2f2f2fff",
+            "imageType": "cylinder",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          }
+        ],
+        "position": [
+          0,
+          0,
+          20
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          90,
+          0,
+          0
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "modelURL": "",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "color": "#80E680",
+        "imageType": "repeat",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      },
+      {
+        "type": "compound",
+        "objects": [
+          {
+            "type": "box",
+            "position": [
+              82.32304473782995,
+              38.32304473782995,
+              1.2
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              45,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              2.4,
+              3.2,
+              0.8
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#f28c2dff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "moveable",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              -0.8,
+              -4,
+              0
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              0.8,
+              4.8,
+              0.8
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#f28c2dff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              0.8,
+              -4,
+              0
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              0.8,
+              4.8,
+              0.8
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#f28c2dff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              0,
+              -6.8,
+              0
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              2.4,
+              0.8,
+              2.4
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#f28c2dff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          },
+          {
+            "type": "box",
+            "position": [
+              0,
+              -7.6,
+              0
+            ],
+            "rotationMode": "degrees",
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "animationMode": "none",
+            "animationKeys": [],
+            "size": [
+              7.2,
+              0.8,
+              2.4
+            ],
+            "modelURL": "",
+            "modelScale": 10,
+            "modelAnimation": "None",
+            "color": "#f28c2dff",
+            "imageType": "repeat",
+            "imageURL": "",
+            "uScale": 1,
+            "vScale": 1,
+            "physicsOptions": "fixed",
+            "magnetic": false,
+            "laserDetection": null,
+            "ultrasonicDetection": null,
+            "receiveShadows": false,
+            "castShadows": false,
+            "isPickable": true
+          }
+        ],
+        "position": [
+          0,
+          0,
+          20
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          10,
+          10,
+          10
+        ],
+        "modelURL": "",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "color": "#80E680",
+        "imageType": "repeat",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      },
+      {
+        "type": "box",
+        "position": [
+          89.95979797464467,
+          35.77746032555838,
+          11.2
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          45,
+          0
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          0.8,
+          0.8,
+          3.2
+        ],
+        "modelURL": "",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "color": "#80e68000",
+        "imageType": "repeat",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      },
+      {
+        "type": "box",
+        "position": [
+          91.09116882454315,
+          36.90883117545686,
+          13.6
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          0,
+          45,
+          0
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          0.8,
+          0.8,
+          3.2
+        ],
+        "modelURL": "",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "color": "#80e68000",
+        "imageType": "repeat",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
+      },
+      {
+        "type": "cylinder",
+        "position": [
+          79.21177490060914,
+          45.39411254969543,
+          1.2
+        ],
+        "rotationMode": "degrees",
+        "rotation": [
+          90,
+          45,
+          0
+        ],
+        "animationMode": "none",
+        "animationKeys": [],
+        "size": [
+          2.4,
+          0.8,
+          10
+        ],
+        "modelURL": "",
+        "modelScale": 10,
+        "modelAnimation": "None",
+        "color": "#FEE200",
+        "imageType": "cylinder",
+        "imageURL": "",
+        "uScale": 1,
+        "vScale": 1,
+        "physicsOptions": "fixed",
+        "magnetic": false,
+        "laserDetection": null,
+        "ultrasonicDetection": null,
+        "receiveShadows": false,
+        "castShadows": false,
+        "isPickable": true
       }
     ],
     "startPos": "center",
     "startPosXYZStr": "",
     "startRotStr": "",
     "startPosXYZ": [
-      14,
-      41,
+      8,
+      19,
       0
     ],
-    "startRot": 90,
+    "startRot": 180,
     "arenaStartPosXYZ": null,
     "arenaStartRot": null
   }
